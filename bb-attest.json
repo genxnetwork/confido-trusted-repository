@@ -1,0 +1,160 @@
+{
+  "attestation": {
+    "boot_aggregate": {
+      "PCR": 10,
+      "HASH": "afa50f5365eb588ece4f85e1bab926aea1fa48a2",
+      "TYPE": "ima-sig",
+      "alg": "sha256",
+      "path": "29ae8d5f98280fff6a609779720cca523b9e949c01244a036c4c6c113ca88063"
+    },
+    "crc32c-intel.ko": {
+      "PCR": 10,
+      "HASH": "66a0769bff6a0460644ed13cbb5334eea2230fd1",
+      "TYPE": "ima-sig",
+      "alg": "sha256",
+      "path": "1e76fce0055b51dcc1124c99ff60d14d2145fe399b5bb30181f95092de767cb1"
+    },
+    "hv_vmbus.ko": {
+      "PCR": 10,
+      "HASH": "1b6152bca355a8d6eb0dfc0a0ed6518ff471b6f0",
+      "TYPE": "ima-sig",
+      "alg": "sha256",
+      "path": "681218368b84edd1205660a76dc41bd36cc8315d816c4644a1838ad06ccaa76f"
+    },
+    "crc32-pclmul.ko": {
+      "PCR": 10,
+      "HASH": "b970e6645d5e001912d20ea41e9dc217a6e582d1",
+      "TYPE": "ima-sig",
+      "alg": "sha256",
+      "path": "48390b383c0eefe2f8ef2364199ec4f2bdd41c02f24200874b743618b9b970fe"
+    },
+    "scsi_transport_fc.ko": {
+      "PCR": 10,
+      "HASH": "9570ea708f965b1b89215cd5aff2b33b8abb7206",
+      "TYPE": "ima-sig",
+      "alg": "sha256",
+      "path": "3f6ab0921fec03fc38ada703cf885afff4722d363a517d75aa3d16e21d959f24"
+    },
+    "hv_storvsc.ko": {
+      "PCR": 10,
+      "HASH": "f1de91fdfde1ab35bb1bee7b2e0011138156e256",
+      "TYPE": "ima-sig",
+      "alg": "sha256",
+      "path": "e24d2b691488df9dda4fc19017a7d9bb6678700a28df3a9fac94ccbe60015649"
+    },
+    "t10-pi.ko": {
+      "PCR": 10,
+      "HASH": "6d0b12fa642402ef7242f754ad8e0d46977a2a33",
+      "TYPE": "ima-sig",
+      "alg": "sha256",
+      "path": "23adb5f420026717261be9a202905acd1b9e74564bc88e23845fae5bb1f0dbbb"
+    },
+    "cdrom.ko": {
+      "PCR": 10,
+      "HASH": "f68a7c66627b1855951e596026b459c86a9285a4",
+      "TYPE": "ima-sig",
+      "alg": "sha256",
+      "path": "65e400848f89c6df6d3ef017ba12575769370c7e88300e5079f73d23a0bb00f2"
+    },
+    "sd_mod.ko": {
+      "PCR": 10,
+      "HASH": "cfe85802cb3859d4d722e6cfb51f509ae01d9535",
+      "TYPE": "ima-sig",
+      "alg": "sha256",
+      "path": "804344e69672d8a45cb8f2ccdace0dfd682a154568635eadfbfdef85f76ad4b6"
+    },
+    "sr_mod.ko": {
+      "PCR": 10,
+      "HASH": "36622bf4343bfc6ea621444a5649da35c621a946",
+      "TYPE": "ima-sig",
+      "alg": "sha256",
+      "path": "a9fb5bca92190e8574eac0b12016dfc39c555f69da89393f7a5d8e04c825202c"
+    },
+    "jbd2.ko": {
+      "PCR": 10,
+      "HASH": "036f58bcf0389a6847cc6fd4211730023de2d751",
+      "TYPE": "ima-sig",
+      "alg": "sha256",
+      "path": "025f9ba772b9c71887a753a2d08b828aec17f38ba0698a5041ab56fb69989eb2"
+    },
+    "mbcache.ko": {
+      "PCR": 10,
+      "HASH": "44f017e39bdbd81a82ccb9f08eb318a8287d54e1",
+      "TYPE": "ima-sig",
+      "alg": "sha256",
+      "path": "f0a1fdee6d2a36d2d277d303b7cc046c431a004ebd5105e787645968bdd3fb26"
+    },
+    "ext4.ko": {
+      "PCR": 10,
+      "HASH": "043aaa982f51c47d415ef38f2debf25eb956be3b",
+      "TYPE": "ima-sig",
+      "alg": "sha256",
+      "path": "621c61787e2589760bd637fa73916454f012ad144b15cfaaade368c4d747a676"
+    },
+    "hello.ko": {
+      "PCR": 10,
+      "HASH": "7897cd856f50f7d0834fa8a8475f126c3b91ceec",
+      "TYPE": "ima-sig",
+      "alg": "sha256",
+      "path": "2530868607adcea506c5a97fe3664a0f4650a1e7f6a3c627c3b6d492c3051ce2"
+    }
+  },
+  "sys_info": {
+    "architecture": "x86_64",
+    "cpu_op_modes": ["32-bit", "64-bit"],
+    "address_sizes": ["48 bits physical", "48 bits virtual"],
+    "byte_order": "Little Endian",
+    "cpu_count": 2,
+    "online_cpu_list": [0, 1],
+    "vendor_id": "AuthenticAMD",
+    "bios_vendor_id": "None",
+    "model_name": "19/01",
+    "bios_model_name": "None",
+    "cpu_family": 25,
+    "model": 1,
+    "threads_per_core": 2,
+    "cores_per_socket": 1,
+    "socket_count": 1,
+    "stepping": 1,
+    "bogomips": 4890.85,
+    "flags": [
+      "fpu", "vme", "de", "pse", "tsc", "msr", "pae", "mce", "cx8", "apic",
+      "sep", "mtrr", "pge", "mca", "cmov", "pat", "pse36", "clflush", "mmx",
+      "fxsr", "sse", "sse2", "ht", "syscall", "nx", "mmxext", "fxsr_opt",
+      "pdpe1gb", "lm", "rep_good", "nopl", "cpuid", "extd_apicid", "pni",
+      "pclmulqdq", "ssse3", "fma", "cx16", "pcid", "sse4_1", "sse4_2",
+      "x2apic", "movbe", "popcnt", "aes", "xsave", "avx", "f16c", "rdrand",
+      "hypervisor", "lahf_lm", "cmp_legacy", "cr8_legacy", "abm", "sse4a",
+      "misalignsse", "3dnowprefetch", "topoext", "invpcid_single", "vmmcall",
+      "fsgsbase", "bmi1", "avx2", "smep", "bmi2", "erms", "invpcid", "rdseed",
+      "adx", "smap", "clflushopt", "clwb", "sha_ni", "xsaveopt", "xsavec",
+      "xgetbv1", "xsaves", "clzero", "xsaveerptr", "rdpru", "arat", "umip",
+      "vaes", "vpclmulqdq"
+    ],
+    "virtualization_features": {
+      "hypervisor_vendor": "Microsoft",
+      "virtualization_type": "full"
+    },
+    "numa": {
+      "node_count": 1,
+      "node0_cpu_list": [0, 1]
+    },
+    "vulnerabilities": {
+      "gather_data_sampling": "Not affected",
+      "itlb_multihit": "Not affected",
+      "l1tf": "Not affected",
+      "mds": "Not affected",
+      "meltdown": "Not affected",
+      "mmio_stale_data": "Not affected",
+      "retbleed": "Not affected",
+      "spec_store_bypass": "Vulnerable",
+      "spectre_v1": "Mitigation; usercopy/swapgs barriers and __user pointer sanitization",
+      "spectre_v2": "Mitigation; Retpolines, STIBP disabled, RSB filling, PBRSB-eIBRS Not affected",
+      "srbds": "Not affected",
+      "tsx_async_abort": "Not affected"
+    },
+    "kernel": {
+      "uname": "Linux RHEL 5.14.0-362.8.1.el9_3.x86_64 #1 SMP PREEMPT_DYNAMIC Tue Oct 3 11:12:36 EDT 2023 x86_64 x86_64 x86_64 GNU/Linux"
+    }
+  }
+}
