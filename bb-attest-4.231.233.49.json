@@ -1,0 +1,126 @@
+{
+    "ima_measurements": [
+        {
+            "name": "boot_aggregate",
+            "PCR": 10,
+            "template_hash": "5403c78c586f482ac267f677aef525cfecc7d035",
+            "ima_template": "ima-sig",
+            "filedata_alg": "sha256",
+            "filedata_hash": "0dc11475e6bdfee9c521d9225bad2e3702a2490af0f37bc93ebebd4f0d370877",
+            "filename_hint": "boot_aggregate"
+        },
+        {
+            "name": "hv_vmbus.ko",
+            "PCR": 10,
+            "template_hash": "0c3f10f3f251aff737e14719bafe04ff82839f8b",
+            "ima_template": "ima-sig",
+            "filedata_alg": "sha256",
+            "filedata_hash": "3b3d4fa16a774653e33741edd7192264980afe77099441199cd2800be5ef0884",
+            "filename_hint": "/usr/lib/modules/5.14.0-427.18.1.el9_4.x86_64/kernel/drivers/hv/hv_vmbus.ko"
+        },
+        {
+            "name": "crc32c-intel.ko",
+            "PCR": 10,
+            "template_hash": "28e733ef230050414c6ffc967c0faa20f06cea54",
+            "ima_template": "ima-sig",
+            "filedata_alg": "sha256",
+            "filedata_hash": "2f7036c6bb1b567c423ea5cdf80248b2857021d8563d5f0202d4420d323b7dcd",
+            "filename_hint": "/usr/lib/modules/5.14.0-427.18.1.el9_4.x86_64/kernel/arch/x86/crypto/crc32c-intel.ko"
+        },
+        {
+            "name": "crc32-pclmul.ko",
+            "PCR": 10,
+            "template_hash": "456666a0bae885bf7c65e9a68bec7bed4afe4454",
+            "ima_template": "ima-sig",
+            "filedata_alg": "sha256",
+            "filedata_hash": "739968013838decf16dd9debe82b943a48c0043ba3649394df34f7b7cd1760e7",
+            "filename_hint": "/usr/lib/modules/5.14.0-427.18.1.el9_4.x86_64/kernel/arch/x86/crypto/crc32-pclmul.ko"
+        },
+        {
+            "name": "scsi_transport_fc.ko",
+            "PCR": 10,
+            "template_hash": "44ba2b4f5f81384c6107532fcaf5d0463be98fe3",
+            "ima_template": "ima-sig",
+            "filedata_alg": "sha256",
+            "filedata_hash": "d4fb7329ab07bda6ad3356922bd4d8bc0da20788056c2ce8d49be12ce3556955",
+            "filename_hint": "/usr/lib/modules/5.14.0-427.18.1.el9_4.x86_64/kernel/drivers/scsi/scsi_transport_fc.ko"
+        },
+        {
+            "name": "hv_storvsc.ko",
+            "PCR": 10,
+            "template_hash": "55cd31244ab8281568a8aa9ac5701deec1317cab",
+            "ima_template": "ima-sig",
+            "filedata_alg": "sha256",
+            "filedata_hash": "9d9f3be2483ff048afff3772db3db50a2004bcc0129d9413011ef8ef8ee54087",
+            "filename_hint": "/usr/lib/modules/5.14.0-427.18.1.el9_4.x86_64/kernel/drivers/scsi/hv_storvsc.ko"
+        },
+        {
+            "name": "t10-pi.ko",
+            "PCR": 10,
+            "template_hash": "70bc0dad5bdda778d20248e841f319487d672bc5",
+            "ima_template": "ima-sig",
+            "filedata_alg": "sha256",
+            "filedata_hash": "cc1e03a840a78d333d76a28b613e78e19d13d4fedcb8f17b71246c6c071a6a6b",
+            "filename_hint": "/usr/lib/modules/5.14.0-427.18.1.el9_4.x86_64/kernel/block/t10-pi.ko"
+        },
+        {
+            "name": "sd_mod.ko",
+            "PCR": 10,
+            "template_hash": "b8578468a0b5a71a340dd0480a629a9e02f9ce26",
+            "ima_template": "ima-sig",
+            "filedata_alg": "sha256",
+            "filedata_hash": "f406c80dcfe0cef94f22b04f51eb44a124f297298fb0f60dcc8a809fc7f1f973",
+            "filename_hint": "/usr/lib/modules/5.14.0-427.18.1.el9_4.x86_64/kernel/drivers/scsi/sd_mod.ko"
+        },
+        {
+            "name": "dm-mod.ko",
+            "PCR": 10,
+            "template_hash": "d3e7c2e73548740cb92e49e7c1ebed3246e7e563",
+            "ima_template": "ima-sig",
+            "filedata_alg": "sha256",
+            "filedata_hash": "eb5e87335dd62f4da7693b3a792b04bcfa2484526abb25917261d76402f00754",
+            "filename_hint": "/usr/lib/modules/5.14.0-427.18.1.el9_4.x86_64/kernel/drivers/md/dm-mod.ko"
+        },
+        {
+            "name": "dm-crypt.ko",
+            "PCR": 10,
+            "template_hash": "7854c6af0241029203598dad37a21b8346e9b132",
+            "ima_template": "ima-sig",
+            "filedata_alg": "sha256",
+            "filedata_hash": "98ced1eef0405871e62123ae7284023b43aba6d77b5524de1313077dca5a9485",
+            "filename_hint": "/usr/lib/modules/5.14.0-427.18.1.el9_4.x86_64/kernel/drivers/md/dm-crypt.ko"
+        },
+        {
+            "name": "jbd2.ko",
+            "PCR": 10,
+            "template_hash": "bf19172586abe78e3a34598a2e66ff5716466307",
+            "ima_template": "ima-sig",
+            "filedata_alg": "sha256",
+            "filedata_hash": "cef5442a9538866485515d35aa173b094a949ccb41138784910379067843cb7a",
+            "filename_hint": "/usr/lib/modules/5.14.0-427.18.1.el9_4.x86_64/kernel/fs/jbd2/jbd2.ko"
+        },
+        {
+            "name": "mbcache.ko",
+            "PCR": 10,
+            "template_hash": "fe062fd91a69bd976888f303b1f29d555f40d14f",
+            "ima_template": "ima-sig",
+            "filedata_alg": "sha256",
+            "filedata_hash": "f51eb9758d6b2ffd3995fa615af406e76bfb6f580d0186edcbf0ff8e4ce4fd98",
+            "filename_hint": "/usr/lib/modules/5.14.0-427.18.1.el9_4.x86_64/kernel/fs/mbcache.ko"
+        },
+        {
+            "name": "ext4.ko",
+            "PCR": 10,
+            "template_hash": "74e79b0312485c71ab37a8351e70d5149a1253a3",
+            "ima_template": "ima-sig",
+            "filedata_alg": "sha256",
+            "filedata_hash": "41103749b158aeee0b75ad9889cde16f749e2c4afdd72a06975eaad4ea6a576b",
+            "filename_hint": "/usr/lib/modules/5.14.0-427.18.1.el9_4.x86_64/kernel/fs/ext4/ext4.ko"
+        }
+    ],
+    "sys_info": {
+        "kernel_version": "5.14.0-427.18.1.el9_4.x86_64",
+        "os_family": "GNU/Linux",
+        "os_name": "Unknown OS"
+    }
+}
