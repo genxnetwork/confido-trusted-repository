@@ -109,13 +109,13 @@
             "filename_hint": "/usr/lib/modules/6.5.0-1024-azure/kernel/drivers/gpu/drm/drm.ko"
         },
         {
-            "name": "sch_fq_codel.ko",
+            "name": "atls_mod.ko",
             "PCR": 10,
-            "template_hash": "96570f357d94b445c810e310d9e6eae9611f3c1e",
+            "template_hash": "98e68b055c763b5b777c337620c40aa05433d968",
             "ima_template": "ima-ng",
             "filedata_alg": "sha1",
-            "filedata_hash": "ba625fba35207b0f4453967f2113bcf97f6d0819",
-            "filename_hint": "/usr/lib/modules/6.5.0-1024-azure/kernel/net/sched/sch_fq_codel.ko"
+            "filedata_hash": "be312603529c74550571947cfe799de7daf54637",
+            "filename_hint": "/usr/lib/modules/6.5.0-1024-azure/kernel/net/atls_mod.ko"
         },
         {
             "name": "scsi_dh_alua.ko",
@@ -143,6 +143,15 @@
             "filedata_alg": "sha1",
             "filedata_hash": "32bcb54c3c4b2a5c753e90b26ab0ebb1ee6f5df0",
             "filename_hint": "/usr/lib/modules/6.5.0-1024-azure/kernel/drivers/scsi/device_handler/scsi_dh_rdac.ko"
+        },
+        {
+            "name": "sch_fq_codel.ko",
+            "PCR": 10,
+            "template_hash": "96570f357d94b445c810e310d9e6eae9611f3c1e",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha1",
+            "filedata_hash": "ba625fba35207b0f4453967f2113bcf97f6d0819",
+            "filename_hint": "/usr/lib/modules/6.5.0-1024-azure/kernel/net/sched/sch_fq_codel.ko"
         },
         {
             "name": "dm-multipath.ko",
@@ -332,87 +341,6 @@
             "filedata_alg": "sha1",
             "filedata_hash": "b39ec0d81d0d6d030b3d0a4536679f3755920a50",
             "filename_hint": "/usr/lib/modules/6.5.0-1024-azure/kernel/net/tls/tls.ko"
-        },
-        {
-            "name": "atls_mod.ko",
-            "PCR": 10,
-            "template_hash": "43396b4ddb2e4e86a32983b593bdd0fc44e689d7",
-            "ima_template": "ima-ng",
-            "filedata_alg": "sha1",
-            "filedata_hash": "e80d0ad20b76ff549d897707e403155c84054a42",
-            "filename_hint": "/home/azureuser/genxt_mod/atls_mod.ko"
-        },
-        {
-            "name": "atls_mod.ko",
-            "PCR": 10,
-            "template_hash": "ab288e5f905ba9fd2c2c73878f8c94e24ba46904",
-            "ima_template": "ima-ng",
-            "filedata_alg": "sha1",
-            "filedata_hash": "c142ff65c6d772ef7225370141e88aeb49f3030d",
-            "filename_hint": "/home/azureuser/genxt_mod/atls_mod.ko"
-        },
-        {
-            "name": "atls_mod.ko",
-            "PCR": 10,
-            "template_hash": "181749008fc4ea23b634d78867ab626c8b7fe0b7",
-            "ima_template": "ima-ng",
-            "filedata_alg": "sha1",
-            "filedata_hash": "42f87b24018aa45507b89954487435a566f7982d",
-            "filename_hint": "/home/azureuser/genxt_mod/atls_mod.ko"
-        },
-        {
-            "name": "atls_mod.ko",
-            "PCR": 10,
-            "template_hash": "b0cfa25a9ac865da49b920263d6b644245c77341",
-            "ima_template": "ima-ng",
-            "filedata_alg": "sha1",
-            "filedata_hash": "4deffd42a434a986b6c7fddb720dc0d06dd4b14d",
-            "filename_hint": "/home/azureuser/genxt_mod/atls_mod.ko"
-        },
-        {
-            "name": "atls_mod.ko",
-            "PCR": 10,
-            "template_hash": "c27fed0b00fe5a878243287d0831ac428d553364",
-            "ima_template": "ima-ng",
-            "filedata_alg": "sha1",
-            "filedata_hash": "08fa212ef3045ee151b50fa4142270d657c8eacb",
-            "filename_hint": "/home/azureuser/genxt_mod/atls_mod.ko"
-        },
-        {
-            "name": "atls_mod.ko",
-            "PCR": 10,
-            "template_hash": "ae3627ffe174387482ee113fdff3a7bad175a179",
-            "ima_template": "ima-ng",
-            "filedata_alg": "sha1",
-            "filedata_hash": "991a36c807602caeee812dc12ba6456e44b1b91a",
-            "filename_hint": "/home/azureuser/genxt_mod/atls_mod.ko"
-        },
-        {
-            "name": "atls_mod.ko",
-            "PCR": 10,
-            "template_hash": "587c35c328b227ced1bd91b666ebc0fab4939abe",
-            "ima_template": "ima-ng",
-            "filedata_alg": "sha1",
-            "filedata_hash": "c7fdb59b8287e84c665d5a682aea2924344fbebb",
-            "filename_hint": "/home/azureuser/genxt_mod/atls_mod.ko"
-        },
-        {
-            "name": "atls_mod.ko",
-            "PCR": 10,
-            "template_hash": "b15dd44f5be32180162e5111dee0422c8fc714df",
-            "ima_template": "ima-ng",
-            "filedata_alg": "sha1",
-            "filedata_hash": "2196a7d7e0d049aaacecad84ada19176aa17975c",
-            "filename_hint": "/home/azureuser/genxt_mod/atls_mod.ko"
-        },
-        {
-            "name": "atls_mod.ko",
-            "PCR": 10,
-            "template_hash": "97ed65362a6d74f0e6058925e986eab1f4ce8e79",
-            "ima_template": "ima-ng",
-            "filedata_alg": "sha1",
-            "filedata_hash": "be312603529c74550571947cfe799de7daf54637",
-            "filename_hint": "/home/azureuser/genxt_mod/atls_mod.ko"
         }
     ],
     "sys_info": {
