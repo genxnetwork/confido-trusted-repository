@@ -3,10 +3,10 @@
         {
             "name": "boot_aggregate",
             "PCR": 10,
-            "template_hash": "59332016e2a9f8fdae100e1f5270b60502efa691",
+            "template_hash": "ce61e19bc3708b0016308eceaf80125e63c9dd7e",
             "ima_template": "ima-ng",
             "filedata_alg": "sha1",
-            "filedata_hash": "b326b2a04a914a1f8faeeaa5eb04ba34723d05d5",
+            "filedata_hash": "ca7391e2b88d4be5fdbe3d6496a5d20cc9dd95cc",
             "filename_hint": "boot_aggregate"
         },
         {
@@ -154,6 +154,69 @@
             "filename_hint": "/usr/lib/modules/6.5.0-1024-azure/kernel/drivers/md/dm-multipath.ko"
         },
         {
+            "name": "hv_netvsc.ko",
+            "PCR": 10,
+            "template_hash": "bd18806ae786d3775e5dc0e88646152579d58ee4",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha1",
+            "filedata_hash": "2578e78b29c3add988e2ec80867fc45f1960d48d",
+            "filename_hint": "/usr/lib/modules/6.5.0-1024-azure/kernel/drivers/net/hyperv/hv_netvsc.ko"
+        },
+        {
+            "name": "sha1-ssse3.ko",
+            "PCR": 10,
+            "template_hash": "775c153d1bcd2f7d53e59229adfb725d52dbdb4c",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha1",
+            "filedata_hash": "3f2af20ccb505830775d09a475e814b2a5876924",
+            "filename_hint": "/usr/lib/modules/6.5.0-1024-azure/kernel/arch/x86/crypto/sha1-ssse3.ko"
+        },
+        {
+            "name": "ghash-clmulni-intel.ko",
+            "PCR": 10,
+            "template_hash": "0788f5506ccb347baeaf296c7e1d138a2f2d2e1e",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha1",
+            "filedata_hash": "72cfd2beed9d2d1856a661faea138825dfeaae83",
+            "filename_hint": "/usr/lib/modules/6.5.0-1024-azure/kernel/arch/x86/crypto/ghash-clmulni-intel.ko"
+        },
+        {
+            "name": "polyval-generic.ko",
+            "PCR": 10,
+            "template_hash": "c322f75b2560229bd159179c086f891ec06e13b2",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha1",
+            "filedata_hash": "1551a1502b07586e1a173b4cc4e3d4a0851720f5",
+            "filename_hint": "/usr/lib/modules/6.5.0-1024-azure/kernel/crypto/polyval-generic.ko"
+        },
+        {
+            "name": "polyval-clmulni.ko",
+            "PCR": 10,
+            "template_hash": "6bfc54310349f24f72225455142be8acd0a8e228",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha1",
+            "filedata_hash": "60574eb97949d32d322fd64e1a3c9279473abce3",
+            "filename_hint": "/usr/lib/modules/6.5.0-1024-azure/kernel/arch/x86/crypto/polyval-clmulni.ko"
+        },
+        {
+            "name": "crc32-pclmul.ko",
+            "PCR": 10,
+            "template_hash": "40cd1c47304f5114158688e82025e3175076b61d",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha1",
+            "filedata_hash": "cba98e76db2e1b72bce0ec8eeff32af2a4e2d5de",
+            "filename_hint": "/usr/lib/modules/6.5.0-1024-azure/kernel/arch/x86/crypto/crc32-pclmul.ko"
+        },
+        {
+            "name": "crct10dif-pclmul.ko",
+            "PCR": 10,
+            "template_hash": "cb3bf034a40bb48db13b436e3639cff3c0a5d3c9",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha1",
+            "filedata_hash": "0cb76ad506270c8d73e8bab5f4535a02ff03a35c",
+            "filename_hint": "/usr/lib/modules/6.5.0-1024-azure/kernel/arch/x86/crypto/crct10dif-pclmul.ko"
+        },
+        {
             "name": "nfnetlink.ko",
             "PCR": 10,
             "template_hash": "42ff825b84f610676abbe7a1e69298c7771082c4",
@@ -217,33 +280,6 @@
             "filename_hint": "/usr/lib/modules/6.5.0-1024-azure/kernel/net/ipv4/netfilter/nf_defrag_ipv4.ko"
         },
         {
-            "name": "sha1-ssse3.ko",
-            "PCR": 10,
-            "template_hash": "775c153d1bcd2f7d53e59229adfb725d52dbdb4c",
-            "ima_template": "ima-ng",
-            "filedata_alg": "sha1",
-            "filedata_hash": "3f2af20ccb505830775d09a475e814b2a5876924",
-            "filename_hint": "/usr/lib/modules/6.5.0-1024-azure/kernel/arch/x86/crypto/sha1-ssse3.ko"
-        },
-        {
-            "name": "hv_netvsc.ko",
-            "PCR": 10,
-            "template_hash": "bd18806ae786d3775e5dc0e88646152579d58ee4",
-            "ima_template": "ima-ng",
-            "filedata_alg": "sha1",
-            "filedata_hash": "2578e78b29c3add988e2ec80867fc45f1960d48d",
-            "filename_hint": "/usr/lib/modules/6.5.0-1024-azure/kernel/drivers/net/hyperv/hv_netvsc.ko"
-        },
-        {
-            "name": "ghash-clmulni-intel.ko",
-            "PCR": 10,
-            "template_hash": "0788f5506ccb347baeaf296c7e1d138a2f2d2e1e",
-            "ima_template": "ima-ng",
-            "filedata_alg": "sha1",
-            "filedata_hash": "72cfd2beed9d2d1856a661faea138825dfeaae83",
-            "filename_hint": "/usr/lib/modules/6.5.0-1024-azure/kernel/arch/x86/crypto/ghash-clmulni-intel.ko"
-        },
-        {
             "name": "nf_defrag_ipv6.ko",
             "PCR": 10,
             "template_hash": "c19620441807704e7ee9c014acd1208510c2abec",
@@ -251,15 +287,6 @@
             "filedata_alg": "sha1",
             "filedata_hash": "6a40bdd86cd4c6b0d0864ded0a455a11bcf7eec4",
             "filename_hint": "/usr/lib/modules/6.5.0-1024-azure/kernel/net/ipv6/netfilter/nf_defrag_ipv6.ko"
-        },
-        {
-            "name": "polyval-generic.ko",
-            "PCR": 10,
-            "template_hash": "c322f75b2560229bd159179c086f891ec06e13b2",
-            "ima_template": "ima-ng",
-            "filedata_alg": "sha1",
-            "filedata_hash": "1551a1502b07586e1a173b4cc4e3d4a0851720f5",
-            "filename_hint": "/usr/lib/modules/6.5.0-1024-azure/kernel/crypto/polyval-generic.ko"
         },
         {
             "name": "nf_conntrack.ko",
@@ -271,24 +298,6 @@
             "filename_hint": "/usr/lib/modules/6.5.0-1024-azure/kernel/net/netfilter/nf_conntrack.ko"
         },
         {
-            "name": "polyval-clmulni.ko",
-            "PCR": 10,
-            "template_hash": "6bfc54310349f24f72225455142be8acd0a8e228",
-            "ima_template": "ima-ng",
-            "filedata_alg": "sha1",
-            "filedata_hash": "60574eb97949d32d322fd64e1a3c9279473abce3",
-            "filename_hint": "/usr/lib/modules/6.5.0-1024-azure/kernel/arch/x86/crypto/polyval-clmulni.ko"
-        },
-        {
-            "name": "crc32-pclmul.ko",
-            "PCR": 10,
-            "template_hash": "40cd1c47304f5114158688e82025e3175076b61d",
-            "ima_template": "ima-ng",
-            "filedata_alg": "sha1",
-            "filedata_hash": "cba98e76db2e1b72bce0ec8eeff32af2a4e2d5de",
-            "filename_hint": "/usr/lib/modules/6.5.0-1024-azure/kernel/arch/x86/crypto/crc32-pclmul.ko"
-        },
-        {
             "name": "xt_conntrack.ko",
             "PCR": 10,
             "template_hash": "a5aac93e79624111788999db36ee56879aaca9fd",
@@ -296,15 +305,6 @@
             "filedata_alg": "sha1",
             "filedata_hash": "1ead11b4496d00b4775f6e0fc6edb09bea522955",
             "filename_hint": "/usr/lib/modules/6.5.0-1024-azure/kernel/net/netfilter/xt_conntrack.ko"
-        },
-        {
-            "name": "crct10dif-pclmul.ko",
-            "PCR": 10,
-            "template_hash": "cb3bf034a40bb48db13b436e3639cff3c0a5d3c9",
-            "ima_template": "ima-ng",
-            "filedata_alg": "sha1",
-            "filedata_hash": "0cb76ad506270c8d73e8bab5f4535a02ff03a35c",
-            "filename_hint": "/usr/lib/modules/6.5.0-1024-azure/kernel/arch/x86/crypto/crct10dif-pclmul.ko"
         },
         {
             "name": "binfmt_misc.ko",
@@ -334,13 +334,85 @@
             "filename_hint": "/usr/lib/modules/6.5.0-1024-azure/kernel/net/tls/tls.ko"
         },
         {
-            "name": "nvidia.ko",
+            "name": "atls_mod.ko",
             "PCR": 10,
-            "template_hash": "440a8378cfa4c61f3bb6fc5331ee95039eccec25",
+            "template_hash": "43396b4ddb2e4e86a32983b593bdd0fc44e689d7",
             "ima_template": "ima-ng",
             "filedata_alg": "sha1",
-            "filedata_hash": "305eb97faf39c82ada6b5760690a6d5ad7fe108a",
-            "filename_hint": "/usr/lib/modules/6.5.0-1024-azure/updates/dkms/nvidia.ko"
+            "filedata_hash": "e80d0ad20b76ff549d897707e403155c84054a42",
+            "filename_hint": "/home/azureuser/genxt_mod/atls_mod.ko"
+        },
+        {
+            "name": "atls_mod.ko",
+            "PCR": 10,
+            "template_hash": "ab288e5f905ba9fd2c2c73878f8c94e24ba46904",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha1",
+            "filedata_hash": "c142ff65c6d772ef7225370141e88aeb49f3030d",
+            "filename_hint": "/home/azureuser/genxt_mod/atls_mod.ko"
+        },
+        {
+            "name": "atls_mod.ko",
+            "PCR": 10,
+            "template_hash": "181749008fc4ea23b634d78867ab626c8b7fe0b7",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha1",
+            "filedata_hash": "42f87b24018aa45507b89954487435a566f7982d",
+            "filename_hint": "/home/azureuser/genxt_mod/atls_mod.ko"
+        },
+        {
+            "name": "atls_mod.ko",
+            "PCR": 10,
+            "template_hash": "b0cfa25a9ac865da49b920263d6b644245c77341",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha1",
+            "filedata_hash": "4deffd42a434a986b6c7fddb720dc0d06dd4b14d",
+            "filename_hint": "/home/azureuser/genxt_mod/atls_mod.ko"
+        },
+        {
+            "name": "atls_mod.ko",
+            "PCR": 10,
+            "template_hash": "c27fed0b00fe5a878243287d0831ac428d553364",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha1",
+            "filedata_hash": "08fa212ef3045ee151b50fa4142270d657c8eacb",
+            "filename_hint": "/home/azureuser/genxt_mod/atls_mod.ko"
+        },
+        {
+            "name": "atls_mod.ko",
+            "PCR": 10,
+            "template_hash": "ae3627ffe174387482ee113fdff3a7bad175a179",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha1",
+            "filedata_hash": "991a36c807602caeee812dc12ba6456e44b1b91a",
+            "filename_hint": "/home/azureuser/genxt_mod/atls_mod.ko"
+        },
+        {
+            "name": "atls_mod.ko",
+            "PCR": 10,
+            "template_hash": "587c35c328b227ced1bd91b666ebc0fab4939abe",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha1",
+            "filedata_hash": "c7fdb59b8287e84c665d5a682aea2924344fbebb",
+            "filename_hint": "/home/azureuser/genxt_mod/atls_mod.ko"
+        },
+        {
+            "name": "atls_mod.ko",
+            "PCR": 10,
+            "template_hash": "b15dd44f5be32180162e5111dee0422c8fc714df",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha1",
+            "filedata_hash": "2196a7d7e0d049aaacecad84ada19176aa17975c",
+            "filename_hint": "/home/azureuser/genxt_mod/atls_mod.ko"
+        },
+        {
+            "name": "atls_mod.ko",
+            "PCR": 10,
+            "template_hash": "97ed65362a6d74f0e6058925e986eab1f4ce8e79",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha1",
+            "filedata_hash": "be312603529c74550571947cfe799de7daf54637",
+            "filename_hint": "/home/azureuser/genxt_mod/atls_mod.ko"
         }
     ],
     "sys_info": {
