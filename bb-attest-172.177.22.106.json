@@ -584,11 +584,20 @@
             "filedata_alg": "sha1",
             "filedata_hash": "bef17f8d56159b778a10cf8b15b2c05fd087f6a5",
             "filename_hint": "/usr/lib/modules/6.2.0-1018-azure/kernel/net/netfilter/xt_nat.ko"
+        },
+        {
+            "name": "nvidia-fs.ko",
+            "PCR": 10,
+            "template_hash": "60a5319be7d0b95534bc4bf6ae7a558bd9e6bc96",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha1",
+            "filedata_hash": "d31e6301f1cc14f8480ca8777fc7507428efbb74",
+            "filename_hint": "/usr/lib/modules/6.2.0-1018-azure/updates/dkms/nvidia-fs.ko"
         }
     ],
     "sys_info": {
         "kernel_version": "6.2.0-1018-azure",
         "os_family": "GNU/Linux",
-        "os_name": "Ubuntu 22.04.3 LTS"
+        "os_name": "Ubuntu 22.04.4 LTS"
     }
 }
