@@ -1,0 +1,18 @@
+{
+    "ima_measurements": [
+        {
+            "name": "boot_aggregate",
+            "PCR": 10,
+            "template_hash": "013d7f28cb1f668cc7d4c5495c8b5e40988411a8",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "7676e48204d318bf4d9e302ac4c2d39de4d50aa92109366ba8ce56285668d23b",
+            "filename_hint": "boot_aggregate"
+        }
+    ],
+    "sys_info": {
+        "kernel_version": "6.10.9-100.fc39.x86_64",
+        "os_family": "GNU/Linux",
+        "os_name": "Unknown OS"
+    }
+}
