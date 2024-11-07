@@ -13,7 +13,7 @@
             "name": "kernel_version",
             "PCR": 10,
             "template_hash": "e31ec1fd542184794f8cf0fcc4e4aa456fd625f1",
-            "ima_template": "ima-buf",
+            "ima_template": "ima-sig",
             "filedata_alg": "sha256",
             "filedata_hash": "adf7830a573b5202005d75b99a3b0bc0fd650c4516989d6922be1419870a8e80",
             "filename_hint": "kernel_version"
@@ -22,7 +22,7 @@
             "name": "init_module",
             "PCR": 10,
             "template_hash": "b4e46b59814aca3272c5506722727efe6819a75d",
-            "ima_template": "ima-buf",
+            "ima_template": "ima-sig",
             "filedata_alg": "sha256",
             "filedata_hash": "01a3455007049e18a5de9f813517256cecef22b360c69b98cc405e11db3c36ab",
             "filename_hint": "init_module"
@@ -31,7 +31,7 @@
             "name": "init_module",
             "PCR": 10,
             "template_hash": "bd4778ad56d34b9656386f7296a32e730e9ef067",
-            "ima_template": "ima-buf",
+            "ima_template": "ima-sig",
             "filedata_alg": "sha256",
             "filedata_hash": "11f2e4dac404852759e08c768727498a528b4ead96254d5001ad2e31d25f1a40",
             "filename_hint": "init_module"
@@ -40,7 +40,7 @@
             "name": "init_module",
             "PCR": 10,
             "template_hash": "17d5af6a781e4c45722ea97e0f1861a7ddad3192",
-            "ima_template": "ima-buf",
+            "ima_template": "ima-sig",
             "filedata_alg": "sha256",
             "filedata_hash": "277ccb69f7116c70af1b43eed090e0a857c8be5d7b3aeb3a7f40a408cb80d913",
             "filename_hint": "init_module"
@@ -49,7 +49,7 @@
             "name": "init_module",
             "PCR": 10,
             "template_hash": "a51a218c64514de9ee6f1d7e2186409e25d2b9eb",
-            "ima_template": "ima-buf",
+            "ima_template": "ima-sig",
             "filedata_alg": "sha256",
             "filedata_hash": "ac944ad26acea23660796282f0839540fe6a0ae35c94571f951da3035e4eba23",
             "filename_hint": "init_module"
@@ -58,7 +58,7 @@
             "name": "init_module",
             "PCR": 10,
             "template_hash": "6bc3781e6f52be56dab3b46b646afc4c09f7a4ea",
-            "ima_template": "ima-buf",
+            "ima_template": "ima-sig",
             "filedata_alg": "sha256",
             "filedata_hash": "e48e033925d926516867ff93287d81b94fdd223517ee904ba5c58df17d590e5e",
             "filename_hint": "init_module"
@@ -67,7 +67,7 @@
             "name": "init_module",
             "PCR": 10,
             "template_hash": "c44797d0151769383c059981772e9d730395338d",
-            "ima_template": "ima-buf",
+            "ima_template": "ima-sig",
             "filedata_alg": "sha256",
             "filedata_hash": "638482752a0289dbe6f86c3936740a9a620866e41a9660ec8689a29ef1e43e95",
             "filename_hint": "init_module"
@@ -76,7 +76,7 @@
             "name": "init_module",
             "PCR": 10,
             "template_hash": "080e0bffb95c08feb9a8fde79f5a0023c4be1476",
-            "ima_template": "ima-buf",
+            "ima_template": "ima-sig",
             "filedata_alg": "sha256",
             "filedata_hash": "afa81974f5433da85104428b9b8224e11b1864bac1f65dad00f9577f7336ba2b",
             "filename_hint": "init_module"
@@ -85,7 +85,7 @@
             "name": "init_module",
             "PCR": 10,
             "template_hash": "67783af48e67c5910fc65017446ef00281c64118",
-            "ima_template": "ima-buf",
+            "ima_template": "ima-sig",
             "filedata_alg": "sha256",
             "filedata_hash": "001de4e5e3e5fab07de9cada50753b27b6e5adfacbec4bb9358c7e40d711e036",
             "filename_hint": "init_module"
@@ -94,7 +94,7 @@
             "name": "init_module",
             "PCR": 10,
             "template_hash": "a43579375863e4390d4209760904f94ca6a6f128",
-            "ima_template": "ima-buf",
+            "ima_template": "ima-sig",
             "filedata_alg": "sha256",
             "filedata_hash": "63f4028f64a9e75c8da3bf7e9d1da3bf5addfeac7ff1ba45368f38d9b92e4f2f",
             "filename_hint": "init_module"
@@ -103,7 +103,7 @@
             "name": "init_module",
             "PCR": 10,
             "template_hash": "596912d26afa3ff876eaa8094b1e05b3e74b4a2c",
-            "ima_template": "ima-buf",
+            "ima_template": "ima-sig",
             "filedata_alg": "sha256",
             "filedata_hash": "e7cc3cd930b20e52f0358e61137aca21510a0ef1a505f1543167b90893338e57",
             "filename_hint": "init_module"
@@ -112,7 +112,7 @@
             "name": "init_module",
             "PCR": 10,
             "template_hash": "e43a1c15e7b74b5af201efd2ec8eb2cd53ec68fa",
-            "ima_template": "ima-buf",
+            "ima_template": "ima-sig",
             "filedata_alg": "sha256",
             "filedata_hash": "102b4d715efe8646859415d7db2af089316a56efdef65e8760b8217f83ece4ac",
             "filename_hint": "init_module"
@@ -121,7 +121,7 @@
             "name": "init_module",
             "PCR": 10,
             "template_hash": "f1d898b7cadfb46650389c76bddc0dcd181a2f86",
-            "ima_template": "ima-buf",
+            "ima_template": "ima-sig",
             "filedata_alg": "sha256",
             "filedata_hash": "685b00b3127bf0840966ce67e745cb0eaf00758b8d003979f220e6764ee37bcc",
             "filename_hint": "init_module"
@@ -130,7 +130,7 @@
             "name": "init_module",
             "PCR": 10,
             "template_hash": "cc0b0adaa94ed3b673035e5d28c5e896ff9d733c",
-            "ima_template": "ima-buf",
+            "ima_template": "ima-sig",
             "filedata_alg": "sha256",
             "filedata_hash": "2dce179a8c1ad46ddbebced1d97be2fa7b85b532f17bf3c5333744132c5c714c",
             "filename_hint": "init_module"
@@ -139,7 +139,7 @@
             "name": "init_module",
             "PCR": 10,
             "template_hash": "c3b49174284495f57e4ae0f2481ccdd510aa3991",
-            "ima_template": "ima-buf",
+            "ima_template": "ima-sig",
             "filedata_alg": "sha256",
             "filedata_hash": "41505c5a5ff1fd3a80a0031f60711b0658e09ba8838306ac9b2058d0fdea5201",
             "filename_hint": "init_module"
@@ -148,7 +148,7 @@
             "name": "init_module",
             "PCR": 10,
             "template_hash": "e1b0be78246f3acfe7a2c61bd044208bd254bb1e",
-            "ima_template": "ima-buf",
+            "ima_template": "ima-sig",
             "filedata_alg": "sha256",
             "filedata_hash": "211d868299d5f6017baba3f03e100d9afc53e4dba1f3aebfe3b9a31d2fe2e78c",
             "filename_hint": "init_module"
@@ -157,7 +157,7 @@
             "name": "init_module",
             "PCR": 10,
             "template_hash": "0decc2b77a9682d7f73276642d995ff07619b8aa",
-            "ima_template": "ima-buf",
+            "ima_template": "ima-sig",
             "filedata_alg": "sha256",
             "filedata_hash": "d1d7f3396a6a4002ce25399ea297bb65cac12a322234cb7f5f178d3e9bde77a6",
             "filename_hint": "init_module"
@@ -166,7 +166,7 @@
             "name": "init_module",
             "PCR": 10,
             "template_hash": "eac904f98571ff11663692c1701db5063adf4139",
-            "ima_template": "ima-buf",
+            "ima_template": "ima-sig",
             "filedata_alg": "sha256",
             "filedata_hash": "25dc8dc15b9c403ec1a06e96487a322092ff7e63bf084f3ed624c0766b3d813b",
             "filename_hint": "init_module"
@@ -175,7 +175,7 @@
             "name": "init_module",
             "PCR": 10,
             "template_hash": "876920cf95534d9ee12362ce385fa9e092dee237",
-            "ima_template": "ima-buf",
+            "ima_template": "ima-sig",
             "filedata_alg": "sha256",
             "filedata_hash": "5b3e30432770682d4518487e1416650fcd59c663662f910b07f6826fa43827b0",
             "filename_hint": "init_module"
@@ -184,7 +184,7 @@
             "name": "init_module",
             "PCR": 10,
             "template_hash": "d7042bd1f5976b4958891bae9a3f7c2012a01029",
-            "ima_template": "ima-buf",
+            "ima_template": "ima-sig",
             "filedata_alg": "sha256",
             "filedata_hash": "2a749de56f776fde0548554bf02871a3732c4f0d8ce3bc5e6a29f0e64f7f8d07",
             "filename_hint": "init_module"
@@ -193,7 +193,7 @@
             "name": "init_module",
             "PCR": 10,
             "template_hash": "5b58c87f2438c72e43f3957bf9545cce39f40a7b",
-            "ima_template": "ima-buf",
+            "ima_template": "ima-sig",
             "filedata_alg": "sha256",
             "filedata_hash": "a547468bbbc3b16a1505e039de52a998ba977f1ae497afb9863f4c851a5fb48f",
             "filename_hint": "init_module"
@@ -202,7 +202,7 @@
             "name": "init_module",
             "PCR": 10,
             "template_hash": "96281be46541075d28a910bb5f6d72bce7ebbe0b",
-            "ima_template": "ima-buf",
+            "ima_template": "ima-sig",
             "filedata_alg": "sha256",
             "filedata_hash": "c916ca597cefb55125e7da1f95ef8280c20d38d42373751c3d4839ab74638d14",
             "filename_hint": "init_module"
@@ -211,7 +211,7 @@
             "name": "init_module",
             "PCR": 10,
             "template_hash": "a5aaed05fbb7d54726969789449ba7be968b17f9",
-            "ima_template": "ima-buf",
+            "ima_template": "ima-sig",
             "filedata_alg": "sha256",
             "filedata_hash": "6fac5bd31b6a46a1b24c2360489f3f2b646967df2f22bb96f5b5471b8afcc9ac",
             "filename_hint": "init_module"
@@ -220,7 +220,7 @@
             "name": "init_module",
             "PCR": 10,
             "template_hash": "2f55fe7ab22cff10f4d268e123ac616138f48c71",
-            "ima_template": "ima-buf",
+            "ima_template": "ima-sig",
             "filedata_alg": "sha256",
             "filedata_hash": "fc399f208d22d0be2e9285ad6e2f4c644a66f57212a552a4ded988782c3525da",
             "filename_hint": "init_module"
@@ -229,7 +229,7 @@
             "name": "init_module",
             "PCR": 10,
             "template_hash": "2f690453a9998dcc0da7d550a6a94c89a5b1f030",
-            "ima_template": "ima-buf",
+            "ima_template": "ima-sig",
             "filedata_alg": "sha256",
             "filedata_hash": "fc357616c3a7cdfddab663fc075c12d37e6ab5b7e25cd28cdc8d1b9fc1735947",
             "filename_hint": "init_module"
@@ -238,7 +238,7 @@
             "name": "init_module",
             "PCR": 10,
             "template_hash": "a09f1501189211e51210ddca39406bd4f75f05e7",
-            "ima_template": "ima-buf",
+            "ima_template": "ima-sig",
             "filedata_alg": "sha256",
             "filedata_hash": "59c7357e6b5c467a29ad9aedc89f6ada3c124375a1aaadff2e4f504c0f1cb19d",
             "filename_hint": "init_module"
@@ -247,7 +247,7 @@
             "name": "init_module",
             "PCR": 10,
             "template_hash": "1127603ed61252200312e200e3ea943d8eb6526f",
-            "ima_template": "ima-buf",
+            "ima_template": "ima-sig",
             "filedata_alg": "sha256",
             "filedata_hash": "5e88e313dc1c077721710df1cc48812788682fdfdf4acd051777ab31e09a98df",
             "filename_hint": "init_module"
@@ -256,7 +256,7 @@
             "name": "init_module",
             "PCR": 10,
             "template_hash": "e7cd14226f154cc2d6bdd53d34f56bf304cae427",
-            "ima_template": "ima-buf",
+            "ima_template": "ima-sig",
             "filedata_alg": "sha256",
             "filedata_hash": "828cc91bcd148504e59135f4630e8d1bc06fb17bf81cef952f44d8b432845c5a",
             "filename_hint": "init_module"
@@ -265,7 +265,7 @@
             "name": "init_module",
             "PCR": 10,
             "template_hash": "c64cd805374c8112d847c8d4931233ff30bcec8a",
-            "ima_template": "ima-buf",
+            "ima_template": "ima-sig",
             "filedata_alg": "sha256",
             "filedata_hash": "9ca214b555b1d965849bb8e96a0e01d96b85a85d41b90e91431d8ccd9fa65dc7",
             "filename_hint": "init_module"
@@ -274,7 +274,7 @@
             "name": "init_module",
             "PCR": 10,
             "template_hash": "63ffd78afcb3c21b8d58045825ce9918561edb5e",
-            "ima_template": "ima-buf",
+            "ima_template": "ima-sig",
             "filedata_alg": "sha256",
             "filedata_hash": "a8a05589ca39786cf6f88cf519192a9f53a687d684f8f17133742c94c120aae7",
             "filename_hint": "init_module"
@@ -283,7 +283,7 @@
             "name": "init_module",
             "PCR": 10,
             "template_hash": "e90599d305f33be9eba4d73b8bbc7ad75c47e30b",
-            "ima_template": "ima-buf",
+            "ima_template": "ima-sig",
             "filedata_alg": "sha256",
             "filedata_hash": "b74ef50be580b75ddd7f236586792faeecbdbd04049c2faf7592b6183cc2031f",
             "filename_hint": "init_module"
@@ -292,7 +292,7 @@
             "name": "init_module",
             "PCR": 10,
             "template_hash": "3975ea6e79f0976b9477df8d0e2c6974139c78d3",
-            "ima_template": "ima-buf",
+            "ima_template": "ima-sig",
             "filedata_alg": "sha256",
             "filedata_hash": "c565fcfc6ec404f2cd0053d6936373d6f3e2b5cd77d68c5531642d6f58b83ea4",
             "filename_hint": "init_module"
@@ -301,7 +301,7 @@
             "name": "init_module",
             "PCR": 10,
             "template_hash": "6377ea4fa32a36469582415e08b87f53743f1c14",
-            "ima_template": "ima-buf",
+            "ima_template": "ima-sig",
             "filedata_alg": "sha256",
             "filedata_hash": "c23edff0a77d11ad89e72095cae65b01085f4fa4a2a5d5b766db6de3f084cf97",
             "filename_hint": "init_module"
@@ -310,7 +310,7 @@
             "name": "init_module",
             "PCR": 10,
             "template_hash": "b9ca5205ce8b8bb5a7f273806ea81c98a6139460",
-            "ima_template": "ima-buf",
+            "ima_template": "ima-sig",
             "filedata_alg": "sha256",
             "filedata_hash": "d0b0f8ffdc1928818063f5aaa767227c60ea70dae42ded2022970576de39e130",
             "filename_hint": "init_module"
@@ -319,7 +319,7 @@
             "name": "init_module",
             "PCR": 10,
             "template_hash": "28f76f9afb37001c245a2cefa22928baf1c124f4",
-            "ima_template": "ima-buf",
+            "ima_template": "ima-sig",
             "filedata_alg": "sha256",
             "filedata_hash": "f238ab9a926858a9b42de418020b6950a58aac6926951a0cb301cb7817b2b7b8",
             "filename_hint": "init_module"
@@ -328,7 +328,7 @@
             "name": "init_module",
             "PCR": 10,
             "template_hash": "a62d0d20119e4686db8ea8e52d2d9c4516dc8263",
-            "ima_template": "ima-buf",
+            "ima_template": "ima-sig",
             "filedata_alg": "sha256",
             "filedata_hash": "52f0f66b6043596ad87daa0bf81e1bf623b9862afc6d2566bd4e79ec89da5ae5",
             "filename_hint": "init_module"
@@ -337,7 +337,7 @@
             "name": "init_module",
             "PCR": 10,
             "template_hash": "09f5bc6d63eb2ccca4b96eb0501305daebe7738f",
-            "ima_template": "ima-buf",
+            "ima_template": "ima-sig",
             "filedata_alg": "sha256",
             "filedata_hash": "f7a422f20f4483d3e5b8072b5dd1fae7d5d61be921b34c01676d223944e7ae1d",
             "filename_hint": "init_module"
@@ -346,7 +346,7 @@
             "name": "init_module",
             "PCR": 10,
             "template_hash": "994d8595341dc496c53338bbd75f918e7869ea01",
-            "ima_template": "ima-buf",
+            "ima_template": "ima-sig",
             "filedata_alg": "sha256",
             "filedata_hash": "46dbf8e1229527f0896d95354b5381d535f86ef875a077bbdf7726ccc5e2ee08",
             "filename_hint": "init_module"
@@ -355,7 +355,7 @@
             "name": "init_module",
             "PCR": 10,
             "template_hash": "af338b02c838e6dd1a8cacce8cbf97462a587f64",
-            "ima_template": "ima-buf",
+            "ima_template": "ima-sig",
             "filedata_alg": "sha256",
             "filedata_hash": "2316cf647a1494a2fa8bf540e16ec0a8ef86b4acecdbce9066d6d58eb213af0a",
             "filename_hint": "init_module"
@@ -364,7 +364,7 @@
             "name": "init_module",
             "PCR": 10,
             "template_hash": "685ac4825a8ca7762860240ff98180e463986d2b",
-            "ima_template": "ima-buf",
+            "ima_template": "ima-sig",
             "filedata_alg": "sha256",
             "filedata_hash": "4c9a11b0920e16cdfbe618ecee4485d01681de171c1c295ad24c5c261091db49",
             "filename_hint": "init_module"
@@ -373,7 +373,7 @@
             "name": "init_module",
             "PCR": 10,
             "template_hash": "8a152f58186c49d3371211484334b7372b2490a5",
-            "ima_template": "ima-buf",
+            "ima_template": "ima-sig",
             "filedata_alg": "sha256",
             "filedata_hash": "a3535cf1e19ccc5fe5f9c5cfbf5d375931bb86d17e5283df188d79a182bc790d",
             "filename_hint": "init_module"
@@ -382,7 +382,7 @@
             "name": "init_module",
             "PCR": 10,
             "template_hash": "9a8d3fa1433d7567e19dacfd1bd8a6f439302a99",
-            "ima_template": "ima-buf",
+            "ima_template": "ima-sig",
             "filedata_alg": "sha256",
             "filedata_hash": "f8876468ccc54933b9df580383d7b44d616e6065b3d74ad01d05412a8aaa12c9",
             "filename_hint": "init_module"
@@ -391,7 +391,7 @@
             "name": "init_module",
             "PCR": 10,
             "template_hash": "138d82932131aaba0b6c6e481d37d481b497fd0b",
-            "ima_template": "ima-buf",
+            "ima_template": "ima-sig",
             "filedata_alg": "sha256",
             "filedata_hash": "f24c7b9c0941633e01ac09fa0bba844a4be15bd6d0d2c28a9560baa4326280be",
             "filename_hint": "init_module"
@@ -400,7 +400,7 @@
             "name": "init_module",
             "PCR": 10,
             "template_hash": "5320de88beab9532fdb89277957839e1ecfbd215",
-            "ima_template": "ima-buf",
+            "ima_template": "ima-sig",
             "filedata_alg": "sha256",
             "filedata_hash": "59b2fc2aace8a7a3ab407bbbdf9251940453d5850e3543377849910a064788bd",
             "filename_hint": "init_module"
@@ -409,7 +409,7 @@
             "name": "init_module",
             "PCR": 10,
             "template_hash": "9c81313074e6ab60a7abf1ca63b2c15a9c37020d",
-            "ima_template": "ima-buf",
+            "ima_template": "ima-sig",
             "filedata_alg": "sha256",
             "filedata_hash": "e93664e4aab05c87e6fb9178b64274fd866d26f354e5e9552f96edb463415e1d",
             "filename_hint": "init_module"
@@ -418,7 +418,7 @@
             "name": "init_module",
             "PCR": 10,
             "template_hash": "b91898d9c1709f42bf43fa6ac49be03f23edcfcb",
-            "ima_template": "ima-buf",
+            "ima_template": "ima-sig",
             "filedata_alg": "sha256",
             "filedata_hash": "c8275a0e9fd55c59fa1c51d9e676576081f01fa38208ab2d22c0ef54d7dfeaa2",
             "filename_hint": "init_module"
@@ -427,7 +427,7 @@
             "name": "init_module",
             "PCR": 10,
             "template_hash": "941be62e460b85c642eb01bc67fe1dbeab548cf9",
-            "ima_template": "ima-buf",
+            "ima_template": "ima-sig",
             "filedata_alg": "sha256",
             "filedata_hash": "dbf07dd06035cfd2f94b9e95b0d34a1f589b16475788791f6cfd55f9c503a550",
             "filename_hint": "init_module"
@@ -436,7 +436,7 @@
             "name": "init_module",
             "PCR": 10,
             "template_hash": "b23fe640fcf5db5dc9ea22f2085dbe79991a597e",
-            "ima_template": "ima-buf",
+            "ima_template": "ima-sig",
             "filedata_alg": "sha256",
             "filedata_hash": "16f0bafe1b220f10138443f082afcec80ace3ebf6fc2ac36b95510e9b9b8b421",
             "filename_hint": "init_module"
@@ -445,7 +445,7 @@
             "name": "init_module",
             "PCR": 10,
             "template_hash": "5dd0c0e234d0601a8fa300b497f4e8c316345e8c",
-            "ima_template": "ima-buf",
+            "ima_template": "ima-sig",
             "filedata_alg": "sha256",
             "filedata_hash": "8221002ccb6484c0c82430898645ae3afddab735bd28116405544e041c01fe28",
             "filename_hint": "init_module"
@@ -454,7 +454,7 @@
             "name": "init_module",
             "PCR": 10,
             "template_hash": "c2969adeeb6312e98862b68d2a15c2edd7f55f77",
-            "ima_template": "ima-buf",
+            "ima_template": "ima-sig",
             "filedata_alg": "sha256",
             "filedata_hash": "35e698fa8ee794d90596add6ef8a127bbee5ff5ee37129637fec51c696921509",
             "filename_hint": "init_module"
@@ -463,7 +463,7 @@
             "name": "init_module",
             "PCR": 10,
             "template_hash": "0eaa425d8465b9195b7fa5904572a60b87fd28e7",
-            "ima_template": "ima-buf",
+            "ima_template": "ima-sig",
             "filedata_alg": "sha256",
             "filedata_hash": "4f42767973893fe6b7bd088e6686acb4a7da69fa1b386fbd3dfc019720f294c2",
             "filename_hint": "init_module"
@@ -472,7 +472,7 @@
             "name": "init_module",
             "PCR": 10,
             "template_hash": "d15d4e48b2834c2cd73d8aa54703a892353e4c79",
-            "ima_template": "ima-buf",
+            "ima_template": "ima-sig",
             "filedata_alg": "sha256",
             "filedata_hash": "2161a04607c5f3690dfc49006719b097fbe26ab48edcaf0588750dbafea703b5",
             "filename_hint": "init_module"
@@ -481,7 +481,7 @@
             "name": "init_module",
             "PCR": 10,
             "template_hash": "ddea704a931090954c0e5bfb5b2c5b40951d9455",
-            "ima_template": "ima-buf",
+            "ima_template": "ima-sig",
             "filedata_alg": "sha256",
             "filedata_hash": "8a2396bb9873dce8e7134e837660bc7ef5083730330a9af978b8a30fb7b23047",
             "filename_hint": "init_module"
@@ -490,7 +490,7 @@
             "name": "init_module",
             "PCR": 10,
             "template_hash": "a9ea4e93b3f5ce445c4a3a7e7d23dbe6d2a4f850",
-            "ima_template": "ima-buf",
+            "ima_template": "ima-sig",
             "filedata_alg": "sha256",
             "filedata_hash": "71bb0c882e5c31f98f2e898b251647dd9448d04419611e793f95b36bad12d35c",
             "filename_hint": "init_module"
@@ -499,7 +499,7 @@
             "name": "init_module",
             "PCR": 10,
             "template_hash": "b9d1a46508c9f8318a2cfab61679f1ba8a431470",
-            "ima_template": "ima-buf",
+            "ima_template": "ima-sig",
             "filedata_alg": "sha256",
             "filedata_hash": "f616ec5c9cf82ef048f8cfc1db6e2e9b73aa2a6379da5e9bb549207d532f0fcc",
             "filename_hint": "init_module"
@@ -508,7 +508,7 @@
             "name": "init_module",
             "PCR": 10,
             "template_hash": "a3f4f1edcfa1196012c814bdc46450e168c87698",
-            "ima_template": "ima-buf",
+            "ima_template": "ima-sig",
             "filedata_alg": "sha256",
             "filedata_hash": "6112d2f070463b1d15f867ecbb59d4946ae5d6fff0ca2e8bd8f36642d078229e",
             "filename_hint": "init_module"
@@ -517,7 +517,7 @@
             "name": "init_module",
             "PCR": 10,
             "template_hash": "eeead6ded1a7240fdac54575f993bb4844aa27cd",
-            "ima_template": "ima-buf",
+            "ima_template": "ima-sig",
             "filedata_alg": "sha256",
             "filedata_hash": "f320494ac73c0ce3da8aa8bdc1a91a9ce7287458b436f43af465fa1e1ad6a23e",
             "filename_hint": "init_module"
@@ -526,7 +526,7 @@
             "name": "init_module",
             "PCR": 10,
             "template_hash": "d454ba03be1e4d5c31f5f2c1c4e9ed09894e6ac5",
-            "ima_template": "ima-buf",
+            "ima_template": "ima-sig",
             "filedata_alg": "sha256",
             "filedata_hash": "353b43d32da9cae5f32fa42b79d0a2191f67500537f0151c94ea855953ca06ea",
             "filename_hint": "init_module"
@@ -535,7 +535,7 @@
             "name": "init_module",
             "PCR": 10,
             "template_hash": "5bd0f98e83125f47d04e41fc756903ae6304b2f9",
-            "ima_template": "ima-buf",
+            "ima_template": "ima-sig",
             "filedata_alg": "sha256",
             "filedata_hash": "0c699f9e7662f18808d8010ccd51ac9c9fcd471bc9583acd11042703337fe687",
             "filename_hint": "init_module"
@@ -544,7 +544,7 @@
             "name": "init_module",
             "PCR": 10,
             "template_hash": "a9758d06c06a02ec13dc6d09b780bea012cbfbdd",
-            "ima_template": "ima-buf",
+            "ima_template": "ima-sig",
             "filedata_alg": "sha256",
             "filedata_hash": "fcff286e4c1d5fa630517a30e1013d26953f25b33308ebb92d822cc60a4687a0",
             "filename_hint": "init_module"
@@ -553,7 +553,7 @@
             "name": "init_module",
             "PCR": 10,
             "template_hash": "a939543070025f94f9081bba6438140fd6fe9c1c",
-            "ima_template": "ima-buf",
+            "ima_template": "ima-sig",
             "filedata_alg": "sha256",
             "filedata_hash": "b3f79eeda509acc9bfee934b4c685f3db39c4dc3dd09739ffdd2caacc120cf78",
             "filename_hint": "init_module"
@@ -562,7 +562,7 @@
             "name": "init_module",
             "PCR": 10,
             "template_hash": "39f3f277b760a866a7a30770ed3fe9aef6ef37ee",
-            "ima_template": "ima-buf",
+            "ima_template": "ima-sig",
             "filedata_alg": "sha256",
             "filedata_hash": "73b5bb1fdebbd02d7799dad90dc8f893351e33f02c550947a62ee061b14cfc6a",
             "filename_hint": "init_module"
@@ -571,7 +571,7 @@
             "name": "init_module",
             "PCR": 10,
             "template_hash": "fab2f629705df3e3e0dfbb6e171da943a6013308",
-            "ima_template": "ima-buf",
+            "ima_template": "ima-sig",
             "filedata_alg": "sha256",
             "filedata_hash": "33591dbb12fbd68a78ddc8b26b0b02a542ed883b9f0299e558a26f9de07893a4",
             "filename_hint": "init_module"
@@ -580,7 +580,7 @@
             "name": "init_module",
             "PCR": 10,
             "template_hash": "b5ca18a82547be53c6db75c84c2f3e0f838d9d27",
-            "ima_template": "ima-buf",
+            "ima_template": "ima-sig",
             "filedata_alg": "sha256",
             "filedata_hash": "1dfd0e480a63005ae88caaa000a38351649367f991db9cd43f78a142f66ccecd",
             "filename_hint": "init_module"
@@ -589,7 +589,7 @@
             "name": "init_module",
             "PCR": 10,
             "template_hash": "e012402edc2f9abaddc79b65063f07c4b1ebfe8f",
-            "ima_template": "ima-buf",
+            "ima_template": "ima-sig",
             "filedata_alg": "sha256",
             "filedata_hash": "ac769595ef6db0b425ee0832ebafa8998f508971f57593176b054a98841e7426",
             "filename_hint": "init_module"
@@ -598,7 +598,7 @@
             "name": "init_module",
             "PCR": 10,
             "template_hash": "143ba71cf2f91ed67ff2751f02d9610703fd9c8f",
-            "ima_template": "ima-buf",
+            "ima_template": "ima-sig",
             "filedata_alg": "sha256",
             "filedata_hash": "447702cd3aa4917135e96ed3a94eb4c9b006b2f9ea5a4851b106fc86feca1107",
             "filename_hint": "init_module"
@@ -607,7 +607,7 @@
             "name": "init_module",
             "PCR": 10,
             "template_hash": "9b48307e4913b5206ce78a8639a42fcd0263727c",
-            "ima_template": "ima-buf",
+            "ima_template": "ima-sig",
             "filedata_alg": "sha256",
             "filedata_hash": "56f0636e4da0c65b7ad46f7e125f8417f7f562e49dfa8f09a2b5166bf3273d80",
             "filename_hint": "init_module"
@@ -616,7 +616,7 @@
             "name": "init_module",
             "PCR": 10,
             "template_hash": "df5d3caf6a82bb78b92636fe65d74a844ec66052",
-            "ima_template": "ima-buf",
+            "ima_template": "ima-sig",
             "filedata_alg": "sha256",
             "filedata_hash": "a76f8155c4a183cc3624842804e8e5ad2dc8ed0632a45951ca6f9a7a590d9122",
             "filename_hint": "init_module"
