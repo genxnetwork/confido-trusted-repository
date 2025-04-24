@@ -1,0 +1,1647 @@
+{
+    "ima_measurements": [
+        {
+            "name": "boot_aggregate",
+            "PCR": 10,
+            "template_hash": "2db11174bbbe6c9ca177eb943e3eac1ca1c69985",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "155552453177c44d05dfa89bb95cf93c14a82f11a43e734a91164a05d8632969",
+            "filename_hint": "boot_aggregate"
+        },
+        {
+            "name": "file_contexts.bin",
+            "PCR": 10,
+            "template_hash": "49187786a3d633112732a702d473742fc7d433dc",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "bd2150aaa5aa072fc06d244b9edf32e27e90f5883e0b20fddb7dd79b974775a4",
+            "filename_hint": "/etc/selinux/targeted/contexts/files/file_contexts.bin"
+        },
+        {
+            "name": "selinux-autorelabel-generator.sh",
+            "PCR": 10,
+            "template_hash": "75bb3316cc06d438cf6dae0811651bb652ad11b3",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "6f899df4b3b60e5fe39e85591e70bade030ec25eeac5e826fd44aa4d34095f43",
+            "filename_hint": "/usr/lib/systemd/system-generators/selinux-autorelabel-generator.sh"
+        },
+        {
+            "name": "systemd-veritysetup-generator",
+            "PCR": 10,
+            "template_hash": "ec86230619a00dc6171927b4f4e48d16dc656870",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "e5d8d2419d70db8779a92dc93c0a181300408973abfce98fc2b17b2489301b66",
+            "filename_hint": "/usr/lib/systemd/system-generators/systemd-veritysetup-generator"
+        },
+        {
+            "name": "systemd-bless-boot-generator",
+            "PCR": 10,
+            "template_hash": "69f8ed16d8a5bd730ae57b9618d3d2a6d65b0e3d",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "5fb09fe4693ff241439ac4ba29b4527dd0d5680d14b2968d77196603035012e3",
+            "filename_hint": "/usr/lib/systemd/system-generators/systemd-bless-boot-generator"
+        },
+        {
+            "name": "systemd-debug-generator",
+            "PCR": 10,
+            "template_hash": "8f9ee91eea7f0e3acdeb923c4e4216a1076f6801",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "19e07e71ed94e30cc6a8a161a901359cab3dd57cdcfa876332955017c065f00a",
+            "filename_hint": "/usr/lib/systemd/system-generators/systemd-debug-generator"
+        },
+        {
+            "name": "systemd-fstab-generator",
+            "PCR": 10,
+            "template_hash": "1066e6bf7f6ad0752b019fff3ca711de58ec6676",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "9290709d27330ec9ea8697c86b894e19bcb0b0e8ca1418b74c21fcf6de15b188",
+            "filename_hint": "/usr/lib/systemd/system-generators/systemd-fstab-generator"
+        },
+        {
+            "name": "systemd-system-update-generator",
+            "PCR": 10,
+            "template_hash": "3e93d41371845053eb69c5ce1d781392290bc662",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "fbff0ad857419faf04a461af81ca526d7564f16396ebc90814f539e64cbf55ff",
+            "filename_hint": "/usr/lib/systemd/system-generators/systemd-system-update-generator"
+        },
+        {
+            "name": "systemd-sysv-generator",
+            "PCR": 10,
+            "template_hash": "6d8bbfc343a55e9a8046b7223e474825d8896a7f",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "7941eb2ff825c27213e993af1d03b5fb3165bd1ae28cb55ac5e7106a66ecb3af",
+            "filename_hint": "/usr/lib/systemd/system-generators/systemd-sysv-generator"
+        },
+        {
+            "name": "systemd-integritysetup-generator",
+            "PCR": 10,
+            "template_hash": "7872adfec7651c36fb604cde425d09b3870e3d40",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "16eae696a358b99b4f3ffe3186099d52c72fc113a938e2733991ec32259c6e8c",
+            "filename_hint": "/usr/lib/systemd/system-generators/systemd-integritysetup-generator"
+        },
+        {
+            "name": "systemd-cryptsetup-generator",
+            "PCR": 10,
+            "template_hash": "6060d22c4d5b0551a37c151839c5d8c114930698",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "23425d6b45842838e58b68a57937f5ffd69d4471d80b47e57980f785e40c991e",
+            "filename_hint": "/usr/lib/systemd/system-generators/systemd-cryptsetup-generator"
+        },
+        {
+            "name": "systemd-getty-generator",
+            "PCR": 10,
+            "template_hash": "014c76c5057cd319f07ae7e576066b9cf0a7ed44",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "60ea6d898dd92fa9c417f33b9b76c884463518251ba9a663aa3edb8edbfe615e",
+            "filename_hint": "/usr/lib/systemd/system-generators/systemd-getty-generator"
+        },
+        {
+            "name": "systemd-run-generator",
+            "PCR": 10,
+            "template_hash": "2f3e570d4a2d8ca9459387e6df5c6ad0a1b6d9cf",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "35ae332c05247fa1819bc0f0742a224bae371e317b3d06b2a47831c95e192037",
+            "filename_hint": "/usr/lib/systemd/system-generators/systemd-run-generator"
+        },
+        {
+            "name": "systemd-rc-local-generator",
+            "PCR": 10,
+            "template_hash": "51e42935bb28492c0c1777b9b14187b747c4d805",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "9d7517a05cd5651eb8688ab5422c5afe6d43ffc6c83d031d7d985b9eac20c643",
+            "filename_hint": "/usr/lib/systemd/system-generators/systemd-rc-local-generator"
+        },
+        {
+            "name": "systemd-gpt-auto-generator",
+            "PCR": 10,
+            "template_hash": "ace12b341bcf7c82902fb68c24fcf721c49f6d10",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "8346b9abc580f7c2f8dffd28dafd2e49fe3178d5d04afc912932fecb8f1718d8",
+            "filename_hint": "/usr/lib/systemd/system-generators/systemd-gpt-auto-generator"
+        },
+        {
+            "name": "systemd-hibernate-resume-generator",
+            "PCR": 10,
+            "template_hash": "a6f5b5c9cdb0704803e8a90949d8b758b6f1d147",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "d79d6d61957bc0c96f6f6afef9a53609136dff9ca6fe11716c0d835e35b0ca75",
+            "filename_hint": "/usr/lib/systemd/system-generators/systemd-hibernate-resume-generator"
+        },
+        {
+            "name": "bash",
+            "PCR": 10,
+            "template_hash": "e4ac3f2bc7265ba8e8943c48c9d3c9f47bbe6f64",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "94ce463b28865b675ee250c655c4d12290d58f49836a374726da37045b3e204f",
+            "filename_hint": "/usr/bin/bash"
+        },
+        {
+            "name": "passwd",
+            "PCR": 10,
+            "template_hash": "fd57ee9521ad221ecd227435ef85c827c552541c",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "f957ba093df13350052ef884c9cd4043c7786d68b473e9b65bbb32247c1fb63f",
+            "filename_hint": "/etc/passwd"
+        },
+        {
+            "name": "selinuxenabled",
+            "PCR": 10,
+            "template_hash": "f27c125ad118e8afaa18f33d350f78cabc2870aa",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "119d77858490c8ee8e9f25d05fddd40e6f343338a9f62c4dee2fb30e39a48cfe",
+            "filename_hint": "/usr/sbin/selinuxenabled"
+        },
+        {
+            "name": "ln",
+            "PCR": 10,
+            "template_hash": "7dd7e20ddb2add0a967e1cc23cdaba8bc9c18d8c",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "622145e8b2eab0435bcefb9c69d017c6e39b9333a365509172e4b34383a60e23",
+            "filename_hint": "/usr/bin/ln"
+        },
+        {
+            "name": "config",
+            "PCR": 10,
+            "template_hash": "6ff1b76aeb261229175a23a62dca06c5e7c262be",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "7b807ecc7f3aa1aad1b851b9ed0906c9843b9f8993ca49b0e5f1ef0daf4cdd7a",
+            "filename_hint": "/etc/selinux/config"
+        },
+        {
+            "name": "systemd-executor",
+            "PCR": 10,
+            "template_hash": "e71344808f27d32dd177b1b037f30c6d81e749ac",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "34db20a0a60813eb034ab3561efd0e774ab7aed597419a6499da96568bf66ac1",
+            "filename_hint": "/usr/lib/systemd/systemd-executor"
+        },
+        {
+            "name": "mount",
+            "PCR": 10,
+            "template_hash": "b4863ff6a3966d6788d5724e0af3c114a7d503ad",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "20a91cab139d061ebd48eb752e47acceb22655414b7b8afd47b83b4b0a244ee3",
+            "filename_hint": "/usr/bin/mount"
+        },
+        {
+            "name": "kmod",
+            "PCR": 10,
+            "template_hash": "416776d551b6b723afdd079569a3070596695c13",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "5ad811f923e951403fb1252c25059628bab7c9b00925df7da01c2b5ba0b62d79",
+            "filename_hint": "/usr/bin/kmod"
+        },
+        {
+            "name": "systemd-journald",
+            "PCR": 10,
+            "template_hash": "791346391c20fdbd24e18d5b5b162cab855b8ea6",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "0f6ed3dee8eb0dc5282bbf986cf29453612c96b672daeaeee7d986e30c66a61a",
+            "filename_hint": "/usr/lib/systemd/systemd-journald"
+        },
+        {
+            "name": "systemd-network-generator",
+            "PCR": 10,
+            "template_hash": "2ca52c49e36072433b827d8ae60eabea9b0b8c2b",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "0040c0aed3c19f3e069d1036f096df0f03159fab921ac3cd3580510fefd5b898",
+            "filename_hint": "/usr/lib/systemd/systemd-network-generator"
+        },
+        {
+            "name": "systemd-pcrextend",
+            "PCR": 10,
+            "template_hash": "11981712fc7e04ca0a7cd475ce67a7672190e07c",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "acedf7efeac7e0b570437719778c9e36666b76c5474e411e3c31a24a369e558c",
+            "filename_hint": "/usr/lib/systemd/systemd-pcrextend"
+        },
+        {
+            "name": "udevadm",
+            "PCR": 10,
+            "template_hash": "a410658d9f8ff75a8b9b5762dc0fc542ddf2cfa8",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "a570395a4f10ebb9f21ec186a61013a50ac14ca2742e7c6d773043b11ecdfda7",
+            "filename_hint": "/usr/bin/udevadm"
+        },
+        {
+            "name": "systemd-fsck",
+            "PCR": 10,
+            "template_hash": "413fc565b8e4fe557c7491b6660e846674ed77da",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "25c4ff136b8bafb7e2d4bf527cf50319c177fcd2a5acf68b4514368c9fd82891",
+            "filename_hint": "/usr/lib/systemd/systemd-fsck"
+        },
+        {
+            "name": "systemd-modules-load",
+            "PCR": 10,
+            "template_hash": "017f5823ce749e313599f2d49b6f093f78871495",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "3fe5c27d7b1f104bcd35301ae323bdaff40426b6b46fae2438845185455c760b",
+            "filename_hint": "/usr/lib/systemd/systemd-modules-load"
+        },
+        {
+            "name": "systemd-remount-fs",
+            "PCR": 10,
+            "template_hash": "8c8a3368e7a916ee464e922eb81f73ec0552dc05",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "8c0efb077953d769b24ed331c284781fba5dffef396fb44f6406059cc1eaf2bf",
+            "filename_hint": "/usr/lib/systemd/systemd-remount-fs"
+        },
+        {
+            "name": "systemd-tpm2-setup",
+            "PCR": 10,
+            "template_hash": "b1da312838fa10453e2bfd5d91a73e9a7bce9cf0",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "ecc98dfffa352bb21becb4b96d7c2c3d36adebe73c6f6bcf50e0fef74ca840e3",
+            "filename_hint": "/usr/lib/systemd/systemd-tpm2-setup"
+        },
+        {
+            "name": "journalctl",
+            "PCR": 10,
+            "template_hash": "49fd1d50e81b7d6509e3156a0178dcf4d2312249",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "caae52f0a35fe04de6020bac0c467f5585f96571bf03187fcf7c47195c647f87",
+            "filename_hint": "/usr/bin/journalctl"
+        },
+        {
+            "name": "systemd-hwdb",
+            "PCR": 10,
+            "template_hash": "3d34ca7d3f30d5a910265ac18792ac7b2c8bd49a",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "d0c7e66a056370bca232a332160c4341119ca405e7e717dce7aa7d94cff5572e",
+            "filename_hint": "/usr/bin/systemd-hwdb"
+        },
+        {
+            "name": "systemd-random-seed",
+            "PCR": 10,
+            "template_hash": "43b864d8017a4b713f739c7736e08e143a1c0b36",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "785152b6e1204a390d1498bd1f5084cb1e5b6f6453728c4a1b4fc0d768ca33c3",
+            "filename_hint": "/usr/lib/systemd/systemd-random-seed"
+        },
+        {
+            "name": "systemd-tmpfiles",
+            "PCR": 10,
+            "template_hash": "8d9d945988880e16cb3bcb64244f99563b775284",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "1cbfd8dedab19d0c6ed71d00281fc2ac4b5cf2975f31a74325f6d16ecc71d6ed",
+            "filename_hint": "/usr/bin/systemd-tmpfiles"
+        },
+        {
+            "name": "group",
+            "PCR": 10,
+            "template_hash": "b996613aff143417c1ea118c0ff4fe2308b80a8b",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "ebe1a87c5d4c8344f7bd05c4ba0caca9026e656aa5b8f13b41e15d36e6fba412",
+            "filename_hint": "/etc/group"
+        },
+        {
+            "name": "systemd-userdbd",
+            "PCR": 10,
+            "template_hash": "8eec121580f5fa2f6e5acadb6b6abf058b50a764",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "68cb7a58d9a23a1d95ce3d27b4fb2aaf5461148f919c1fad46da5588606301ce",
+            "filename_hint": "/usr/lib/systemd/systemd-userdbd"
+        },
+        {
+            "name": "systemd-userwork",
+            "PCR": 10,
+            "template_hash": "7c4f4943ddcd1232b4d5ba4b206aac2b3d56f905",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "dee7c76862822bf63a309fcb2bb2b81ee3ad69a8e40a0b92e2f7f00ea3f4036d",
+            "filename_hint": "/usr/lib/systemd/systemd-userwork"
+        },
+        {
+            "name": "systemd-sysusers",
+            "PCR": 10,
+            "template_hash": "3dcdf94c10608cdc3b456df4dd65802d84454edb",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "e99810bb587fa68d2e32b1d825a7c00c2141819fe3188151ca7437ff1b6a2a1e",
+            "filename_hint": "/usr/bin/systemd-sysusers"
+        },
+        {
+            "name": "systemd-growfs",
+            "PCR": 10,
+            "template_hash": "f3f5dd31f1ac02e019ad90bc1ef826d330af07b5",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "ca253998d1d4c2d7da4f6e4cacccbb54a43197ab468de6aa54c1118b131a4614",
+            "filename_hint": "/usr/lib/systemd/systemd-growfs"
+        },
+        {
+            "name": "bootctl",
+            "PCR": 10,
+            "template_hash": "d764444e536321969503b412a2bf3a992fa05e80",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "112376c3941e55f52cbe683b16b8a891fb441b81aa00b97c28ca7d77222fef03",
+            "filename_hint": "/usr/bin/bootctl"
+        },
+        {
+            "name": "systemd-sysctl",
+            "PCR": 10,
+            "template_hash": "49d61441f37f0f6e007657d4b5aee20b39e1bade",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "fbd5b4282689725a8b480ea2eba2b824af6284d0e188ca1f4f07d173362285a9",
+            "filename_hint": "/usr/lib/systemd/systemd-sysctl"
+        },
+        {
+            "name": "ldconfig",
+            "PCR": 10,
+            "template_hash": "61500a638986571793b4c1226719e6291d9909c7",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "18bf2e23c0897fd0e9bc238e30567d733e2304ac83b3b85c39843b40927f4dab",
+            "filename_hint": "/usr/sbin/ldconfig"
+        },
+        {
+            "name": "auditd",
+            "PCR": 10,
+            "template_hash": "ec33397e7329a02caaab56495642359394df1fc0",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "f01918311bd428931758218be2e051bfae3dacf14fa4a2ea05f51f5b960deb07",
+            "filename_hint": "/usr/sbin/auditd"
+        },
+        {
+            "name": "systemd-resolved",
+            "PCR": 10,
+            "template_hash": "7cf5ccc598de6a34eb44afd4ec9ea1ea32f7dcc5",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "2658145a6fb7e9f2bdb66676bb8e3359f842a3146173b101023c834f3da97c36",
+            "filename_hint": "/usr/lib/systemd/systemd-resolved"
+        },
+        {
+            "name": "systemd-oomd",
+            "PCR": 10,
+            "template_hash": "e615904699a4f5098b198dd113ac1b4262a1260e",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "1e6a3f87a3017924db900bbeae17fc6f727470bc88e1b3817a773f05dd1cfbce",
+            "filename_hint": "/usr/lib/systemd/systemd-oomd"
+        },
+        {
+            "name": "systemd-firstboot",
+            "PCR": 10,
+            "template_hash": "1ee808cbc8d192c40bfdf57aa42c1c563f0c2675",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "55ff72926c71b7074ede3d6b537a4c1f3e580d0f335255c97bffa41c9445ec77",
+            "filename_hint": "/usr/bin/systemd-firstboot"
+        },
+        {
+            "name": "systemd-machine-id-setup",
+            "PCR": 10,
+            "template_hash": "75b88c6d4a0b89e0f1fbeb5cb850d74e3f5cee81",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "7503228e403cb3510c2891a58d50d5b9e0f61b94f5f607e837992a9b0956bf43",
+            "filename_hint": "/usr/bin/systemd-machine-id-setup"
+        },
+        {
+            "name": "augenrules",
+            "PCR": 10,
+            "template_hash": "0839a29637d29a4fbb6b8e3985bc830718360c25",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "bba4b6d2311f89715e591cb1056a00c3c2fd2d7a78834ed6be0e5d8cc700b17d",
+            "filename_hint": "/usr/sbin/augenrules"
+        },
+        {
+            "name": "mktemp",
+            "PCR": 10,
+            "template_hash": "fa406a46b21d85262eaaeef70b56310196d5e5eb",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "d1c550b9a1d0920acf1e946431dfdcd4ff3920d31c2cd2ce34a974002b51b8f5",
+            "filename_hint": "/usr/bin/mktemp"
+        },
+        {
+            "name": "systemd-update-utmp",
+            "PCR": 10,
+            "template_hash": "e5f536634875c96528484d20760586367da34bb1",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "964b489cb3e37cdfd308c5cad4834e8fc174abf6affb9cb63afbc4fc321ff478",
+            "filename_hint": "/usr/lib/systemd/systemd-update-utmp"
+        },
+        {
+            "name": "ls",
+            "PCR": 10,
+            "template_hash": "13b3ba925a15bcde59bc0108ff710886712d6af3",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "423adfc55d6bbfea9e1c29d353ed48c24c8f3e54ee5e47687ef2b6ca8184d86e",
+            "filename_hint": "/usr/bin/ls"
+        },
+        {
+            "name": "grep",
+            "PCR": 10,
+            "template_hash": "c8e1b6049be5eeeeb611ac765bf65fd35ee856a8",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "af1ab9e68646d3e7d99e20f51d8905a0fd4acebfaf9b88a4398f7d9a3078d40d",
+            "filename_hint": "/usr/bin/grep"
+        },
+        {
+            "name": "gawk",
+            "PCR": 10,
+            "template_hash": "f33694ad74b47401ace02461f0c1394fb30d99c4",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "1ae5e71e24e6b30fb9fa9f9f07022dcb6f21ecee2499eff20c519c2b4e2b0365",
+            "filename_hint": "/usr/bin/gawk"
+        },
+        {
+            "name": "cat",
+            "PCR": 10,
+            "template_hash": "a054a57aa43fb0158af3ca75fa80ead5d38a4bd0",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "2ddeec37a0535b7687adf470fe8fc0bf7df56e375fb83cfb900f20f582dfde9b",
+            "filename_hint": "/usr/bin/cat"
+        },
+        {
+            "name": "cmp",
+            "PCR": 10,
+            "template_hash": "d07b2026440032ab5e6e822c454b5366dcd3ca01",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "7cf0858d62f2da56a0cb469e2eaeacf8e8bd4667ce89fece612c71cff84a7299",
+            "filename_hint": "/usr/bin/cmp"
+        },
+        {
+            "name": "rm",
+            "PCR": 10,
+            "template_hash": "cbae443361c95e28275376e1ca977ab7b09c4c9e",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "e362663d4137dfe459d510ea4506cdea8891c02f9c7ea82e900c5aec67bfe7cc",
+            "filename_hint": "/usr/bin/rm"
+        },
+        {
+            "name": "auditctl",
+            "PCR": 10,
+            "template_hash": "741fdf700b088bec9098c9a1a150cef98d4d2847",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "62b69ec443be5a5f6664573a2743a6e2d11a2a96ee343d277137c73be7f400bb",
+            "filename_hint": "/usr/sbin/auditctl"
+        },
+        {
+            "name": "cdrom_id",
+            "PCR": 10,
+            "template_hash": "e92b3ad2c887b4573c42d5706dbe1167731717d4",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "dd2ad9ef5e9581457f8d15dded25c4cc9e9493993155dab4441eecff388c4195",
+            "filename_hint": "/usr/lib/udev/cdrom_id"
+        },
+        {
+            "name": "scsi_id",
+            "PCR": 10,
+            "template_hash": "d4e86be8d68bf80c04384f29cce73f28110c9ca8",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "6c6eb3eb57dfc892b7bac0596ffe08fc9a9cf7b91763e885960bb80f9620b64f",
+            "filename_hint": "/usr/lib/udev/scsi_id"
+        },
+        {
+            "name": "dmi_memory_id",
+            "PCR": 10,
+            "template_hash": "370f42193f45afc20b309f98198ec1d9b4650359",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "c41bedfa62f307e0bca861b70729c46e7a17df62170b8ae36fb506199bea81dc",
+            "filename_hint": "/usr/lib/udev/dmi_memory_id"
+        },
+        {
+            "name": "systemctl",
+            "PCR": 10,
+            "template_hash": "20951358931153c1d78c534483835c1e054e7471",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "c72f1f8d5517903be509081ddd36d15cb096e943af8f7aa890a7d45d47c5dde1",
+            "filename_hint": "/usr/bin/systemctl"
+        },
+        {
+            "name": "systemd-vconsole-setup",
+            "PCR": 10,
+            "template_hash": "29bf9692ebd318edd38cdf2d23198a7f4ce7288f",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "3a8210ec5bd642f095f1f5f1a636e71f7bf78e6387cc1e71503a5274eea685db",
+            "filename_hint": "/usr/lib/systemd/systemd-vconsole-setup"
+        },
+        {
+            "name": "loadkeys",
+            "PCR": 10,
+            "template_hash": "47272e465c0f140534e917903dfb61ba217f3fc7",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "e49ce10d90cb508b565c9c337c2c332ce20dfb4fcb945cd56ea70ae3bd699be9",
+            "filename_hint": "/usr/bin/loadkeys"
+        },
+        {
+            "name": "gzip",
+            "PCR": 10,
+            "template_hash": "38cc65c2ea0951d3810c1583293f95987365cde0",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "e56648903a3e7bd75bc957455e0d02a254d6efffbb6801c5d98d6dc6cb075481",
+            "filename_hint": "/usr/bin/gzip"
+        },
+        {
+            "name": "systemd-update-done",
+            "PCR": 10,
+            "template_hash": "3060d53cc7d1332a99423d6ef91c7eaba990ae62",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "a92e5b2cf8756c0aec829257122a870f835a075b38b3802a4c546a1b760d576b",
+            "filename_hint": "/usr/lib/systemd/systemd-update-done"
+        },
+        {
+            "name": "dbus-broker-launch",
+            "PCR": 10,
+            "template_hash": "57e493f8c61ab40843f7555471d12f52ce88d314",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "0b481fabb63ce1dee40744bc8c8e23b5360feba4c218db72863c5ce67d372bd9",
+            "filename_hint": "/usr/bin/dbus-broker-launch"
+        },
+        {
+            "name": "dbus_contexts",
+            "PCR": 10,
+            "template_hash": "579c990e950e0f1d6afa01b7af60018f86cf7cd2",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "33115c8ae83b6d571d45099e1758b571209e2808eed26389ffc50c1d5409cb37",
+            "filename_hint": "/etc/selinux/targeted/contexts/dbus_contexts"
+        },
+        {
+            "name": "dbus-broker",
+            "PCR": 10,
+            "template_hash": "09d0025e4eda3c75971aa4dbfd72bdb058043140",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "afa9310a500d6a4efed573d14fb104b95361657eb50a5a0cb3e6e4b20ff66c16",
+            "filename_hint": "/usr/bin/dbus-broker"
+        },
+        {
+            "name": "diskencrypt.sh",
+            "PCR": 10,
+            "template_hash": "74d13b06bb474c7f7fa9d75a3c7ba3ce6456ebfc",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "2791170b16c0fb30928f7c20969899bb7c01ac6ab21a19ef37667017be97d5dc",
+            "filename_hint": "/usr/local/bin/diskencrypt.sh"
+        },
+        {
+            "name": "dkms",
+            "PCR": 10,
+            "template_hash": "6dcc97485b3602004a7590b268adc57f9e87c9f0",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "5c9400e2e3ba3920ad219738d6987dd7499e7742ba3a42f6a2b82408ce4a1d8c",
+            "filename_hint": "/usr/sbin/dkms"
+        },
+        {
+            "name": "systemd-homed",
+            "PCR": 10,
+            "template_hash": "c354de50dd65a903838749e15024779668179044",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "c0c9fd1dfe79b3c6e06bdbe16941409db59488eae06e1628a7b16510a0cf2df2",
+            "filename_hint": "/usr/lib/systemd/systemd-homed"
+        },
+        {
+            "name": "chronyd",
+            "PCR": 10,
+            "template_hash": "61796ef40090587569c50d4af421d61b0f25dd57",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "46728d63b283c1fa2c5f13c3f4d60f9d8b8017598b5392b7e63ba2e68a7e0c68",
+            "filename_hint": "/usr/sbin/chronyd"
+        },
+        {
+            "name": "hosts",
+            "PCR": 10,
+            "template_hash": "de53b828aae5df82109c45d46a7ec16a79e2269b",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "8c30e3d37cccf8e58c2fddb25100624bc6a1476591a2e2e07f579d0e58a49f29",
+            "filename_hint": "/etc/hosts"
+        },
+        {
+            "name": "uname",
+            "PCR": 10,
+            "template_hash": "b7cf7c04022f63dad02f9a126fcd02e1c3ff2068",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "121c2ae1d75a2d0e518b0d96b6815937be56d0733913d06855375ab60fe83a2d",
+            "filename_hint": "/usr/bin/uname"
+        },
+        {
+            "name": "true",
+            "PCR": 10,
+            "template_hash": "ed7dd0ce2d287237b64f3e888433f857b3c4f880",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "5e1a04089c19be98465e3f9e539c88862c2a7190c8abdc6b5381a2ffe0b9a3b6",
+            "filename_hint": "/usr/bin/true"
+        },
+        {
+            "name": "iptables.init",
+            "PCR": 10,
+            "template_hash": "d5abdd1d6d79d1ea774337dfcdf12300823f497c",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "731329f0621d9153eb779f7da25c4c82e16955ae1bf9f4709c1084f64c3f4b61",
+            "filename_hint": "/usr/libexec/iptables/iptables.init"
+        },
+        {
+            "name": "systemd-logind",
+            "PCR": 10,
+            "template_hash": "2c491867c16a7dc0352c789ef51cf39a2fe53717",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "bdaf4444f297ccc4c891fc1f1f305fe8d4edba1b6ea6ec59824d1a2934f43e26",
+            "filename_hint": "/usr/lib/systemd/systemd-logind"
+        },
+        {
+            "name": "lsblk",
+            "PCR": 10,
+            "template_hash": "30ab9de221a7ca176db53ae5fcc9406bbf51db78",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "448030b7c0440da45330c93f7d5e7d896d4074efd3bbf1d2f66706d365df7bc0",
+            "filename_hint": "/usr/bin/lsblk"
+        },
+        {
+            "name": "xtables-legacy-multi",
+            "PCR": 10,
+            "template_hash": "5f9e9a52200e3f20ff911e1fadfe23c89a292164",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "a77e51fa90959718ce94a883081a665438d4f82a74e50fabb3b567d6d978329b",
+            "filename_hint": "/usr/sbin/xtables-legacy-multi"
+        },
+        {
+            "name": "head",
+            "PCR": 10,
+            "template_hash": "739a3bc5703a7db09c0733c9505e132388cce1d2",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "f54e916f6c7027a78a1be4001fd0d0d0ab5571ed8a3a9489587858c38b2ddd46",
+            "filename_hint": "/usr/bin/head"
+        },
+        {
+            "name": "cut",
+            "PCR": 10,
+            "template_hash": "57cc6fc1791c45f2081e594b4bd77d70185de49a",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "71f53547a7f892ff0aa5e7653778e908d8e8f75ec2aa066e262f3edf96d77c9c",
+            "filename_hint": "/usr/bin/cut"
+        },
+        {
+            "name": "nproc",
+            "PCR": 10,
+            "template_hash": "8e74ba568444cb1daf82a75f154b72897c3d913f",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "f6a58b1c7fda3fadbcfc289db5f1098c0b94336bf9cfc31a016ccb1c6287e33f",
+            "filename_hint": "/usr/bin/nproc"
+        },
+        {
+            "name": "rpm",
+            "PCR": 10,
+            "template_hash": "8b5245fd1a34ab348d35f3925eb6b32d1b340194",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "4769b5e6f6ad35dc386b7f83f54e82929cb2239ddc5ea7aa5664c6b129b335c5",
+            "filename_hint": "/usr/bin/rpm"
+        },
+        {
+            "name": "mkdir",
+            "PCR": 10,
+            "template_hash": "386d8c16ca4ddc6b46b3e49f05324558a859f474",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "0168af6ed51f1a523e15ab7f7b394590064b3f5aeae1fcca8aed6dd9dfd16972",
+            "filename_hint": "/usr/bin/mkdir"
+        },
+        {
+            "name": "touch",
+            "PCR": 10,
+            "template_hash": "303222d75b00b48dc683798bafcea21ea9d09918",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "86df4064240c5a70f0e952f09ba3ad72ee219bdf5a8b6d58f46c6505037a62b2",
+            "filename_hint": "/usr/bin/touch"
+        },
+        {
+            "name": "dd",
+            "PCR": 10,
+            "template_hash": "7fc0ea27764db098c2593b9b8b8ea6e9a63d1d96",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "eec535078997e6ab9d3960a59ae5173c77c921f15809b4b73a332693a4124b2d",
+            "filename_hint": "/usr/bin/dd"
+        },
+        {
+            "name": "cryptsetup",
+            "PCR": 10,
+            "template_hash": "c84b6aa47eabc7bfbe5380f17e541c1aa5a3db88",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "4b109b99414e3363ee425c6a225ddeb4432fc0993f7e58b7c74575c7890c825b",
+            "filename_hint": "/usr/sbin/cryptsetup"
+        },
+        {
+            "name": "afterburn",
+            "PCR": 10,
+            "template_hash": "7e9abb74f29c0a78973bbb95c6d0c7e7977b9cd2",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "76b86090195ea7600ddf3cef788315d2d8292fb264bb42a0321c2b8d8fa85853",
+            "filename_hint": "/usr/bin/afterburn"
+        },
+        {
+            "name": "id",
+            "PCR": 10,
+            "template_hash": "8c18432c527f9bc1f8abf87615a01d7937646606",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "4cef4474130558fb68696070193e4c3c2923a52b6b8d204131bcd38b815be270",
+            "filename_hint": "/usr/bin/id"
+        },
+        {
+            "name": "systemd-networkd",
+            "PCR": 10,
+            "template_hash": "ddc623f98eba77346d81758a31547499f3d9f1b7",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "42cfce782c314a778c37e808fe86592379c52baee52485b1b8c67d94e4ce393f",
+            "filename_hint": "/usr/lib/systemd/systemd-networkd"
+        },
+        {
+            "name": "resize-rootfs.sh",
+            "PCR": 10,
+            "template_hash": "1ce162229341e874dd29cfffb9311d6525428251",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "70c09e3b4329d281c522c9383fc8691fd85543eff8ee5a0eb016f6a7e9d19a6b",
+            "filename_hint": "/usr/local/bin/resize-rootfs.sh"
+        },
+        {
+            "name": "mountpoint",
+            "PCR": 10,
+            "template_hash": "10409a801744bd3b61562dfcfb81273652fad97a",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "ff10af43f71df28311c4cb7c14f0c84c2f59f98549ddcb774713456bf53a62e7",
+            "filename_hint": "/usr/bin/mountpoint"
+        },
+        {
+            "name": "systemd-user-sessions",
+            "PCR": 10,
+            "template_hash": "aeb74f3c4f4234d13c436bd9bc170f35a091c880",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "a0404dc123d5276e0869398d5ce4fa36cf665166a9482c5fe20ef5123adedb42",
+            "filename_hint": "/usr/lib/systemd/systemd-user-sessions"
+        },
+        {
+            "name": "date",
+            "PCR": 10,
+            "template_hash": "e2e658af0eb8ec49bc9dad13ae6d9fb7146a5e70",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "17aaee9bc29ef33d7d3bd87e061973b44ef08c2a6ade9141524ceec81dbdd2cb",
+            "filename_hint": "/usr/bin/date"
+        },
+        {
+            "name": "sgdisk",
+            "PCR": 10,
+            "template_hash": "027f6efc65023c388f81d2b09a4390f25822fce8",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "9f67ed62c377bc4833c144194ca717351433367b5af31ae28a2cb2541a01a19c",
+            "filename_hint": "/usr/sbin/sgdisk"
+        },
+        {
+            "name": "sleep",
+            "PCR": 10,
+            "template_hash": "7b0b68808105d8c3f251d45afe818f7f60f3c7f2",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "9e2bdb2dec6d32afb0c72b1eab5384d060a1c0f3fdce23fe29485242bb577e03",
+            "filename_hint": "/usr/bin/sleep"
+        },
+        {
+            "name": "nginx",
+            "PCR": 10,
+            "template_hash": "c1123686b300ba9c304a75dddb5ac723193e04d6",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "eb0bf92716432f998a2e97a1d8b4353475bd03865c040d186b78113a88d3782c",
+            "filename_hint": "/usr/sbin/nginx"
+        },
+        {
+            "name": "nginx.conf",
+            "PCR": 10,
+            "template_hash": "64d3e2ea0a532d6d48c7a5bfb51941254ee5c22a",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "0df7706462d3e0134ce2b1262ab99eb39fd61c8b397d1766e6a8ad0778bc4e46",
+            "filename_hint": "/etc/nginx/nginx.conf"
+        },
+        {
+            "name": "confido.conf",
+            "PCR": 10,
+            "template_hash": "de789753046812ab8d6547e35c55b1f137b2c540",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "ec81354df2a5358cad4716490da72b06560df962d67da95ea6e27f5aab079ab7",
+            "filename_hint": "/etc/nginx/conf.d/confido.conf"
+        },
+        {
+            "name": "confido-server",
+            "PCR": 10,
+            "template_hash": "621663a8f79b85051ff8e2c997f0be95f7e9998b",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "0c4aff7afaf321d6b7060d1922a7e0a80f9536585cf396cf8dd9ace70b63d2b5",
+            "filename_hint": "/usr/local/bin/confido-server"
+        },
+        {
+            "name": "containerd",
+            "PCR": 10,
+            "template_hash": "f3abf319258016dd71bcb5c8958d7033b7ffad74",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "db94d3dae800a8177aea634769a6b1887c86b9e92f1dc17292c9a30a7516f454",
+            "filename_hint": "/usr/bin/containerd"
+        },
+        {
+            "name": "openssl",
+            "PCR": 10,
+            "template_hash": "a1962b56053263549b025c2527f15467637df8ff",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "69f3899b59da4573f11a79a66a2e09823a2e9c286554c75a6fecf8c4d80cfebd",
+            "filename_hint": "/usr/bin/openssl"
+        },
+        {
+            "name": "agetty",
+            "PCR": 10,
+            "template_hash": "95e785f443cab4ea482f949cbbc10909e818c560",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "d774eb947a75b485256af16d03fe32c0a0ab995ca9a0670d3df9698c71f2a0dd",
+            "filename_hint": "/usr/sbin/agetty"
+        },
+        {
+            "name": "login",
+            "PCR": 10,
+            "template_hash": "d96f841529d5be79c8086262fef9f051e16b04f5",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "a3e9d48d60e70bef0b2372a8a9d50102592134a81b9ca217503f2fc99a6f0a5a",
+            "filename_hint": "/usr/bin/login"
+        },
+        {
+            "name": "unix_chkpwd",
+            "PCR": 10,
+            "template_hash": "69c398f798c7563a90acdaf486035f9f48782da7",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "0ca4e7b1c45eb39898371165b2e139fe5efa7e01e06ae7d46e3abbf23c1b5649",
+            "filename_hint": "/usr/sbin/unix_chkpwd"
+        },
+        {
+            "name": "seusers",
+            "PCR": 10,
+            "template_hash": "d4e927f7e8e8f89b72ac5163786d7c1f45e4de51",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "cedf81a7200afb4054ab296ee3c8468e24118332b6a99f0075e2f8148f5f1d91",
+            "filename_hint": "/etc/selinux/targeted/seusers"
+        },
+        {
+            "name": "systemd-user-runtime-dir",
+            "PCR": 10,
+            "template_hash": "38531ffad7af6f8f814b3e1d1e3d6f62a2a89dd8",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "2768feba881156984bedad1496622449d417282ecd490ebc874c19d469c56caf",
+            "filename_hint": "/usr/lib/systemd/systemd-user-runtime-dir"
+        },
+        {
+            "name": "systemd",
+            "PCR": 10,
+            "template_hash": "37af12a8816f40516e3fba954a372a2ac38233d7",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "a0a4d401da5b5333e13e223ee64c9ceb6c86474be2f44df7704bd776c40c4e1a",
+            "filename_hint": "/usr/lib/systemd/systemd"
+        },
+        {
+            "name": "30-systemd-environment-d-generator",
+            "PCR": 10,
+            "template_hash": "6f6e0510214e719fb71062dcd7200bd647e3b496",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "bf9673bad72e02e0ab429aef56d39cfdb3ab435b567ebf2b4e459d999bd4ab1a",
+            "filename_hint": "/usr/lib/systemd/user-environment-generators/30-systemd-environment-d-generator"
+        },
+        {
+            "name": "systemd-xdg-autostart-generator",
+            "PCR": 10,
+            "template_hash": "d4f6f2a76999310b4d2ddcb0a853742c89d4b4ea",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "58a0f3d7605ca4997776c1935e6b4e6dc40f6107cefcf3a4576970cb16f0f39d",
+            "filename_hint": "/usr/lib/systemd/user-generators/systemd-xdg-autostart-generator"
+        },
+        {
+            "name": "partprobe",
+            "PCR": 10,
+            "template_hash": "0fa8453942175e5e3298425ab91a2537349aeca9",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "c6386b15bc71b0113ca81131c6ea62a546c349a0f9b10a517fea8d5dc6a9f1a2",
+            "filename_hint": "/usr/sbin/partprobe"
+        },
+        {
+            "name": "blkid",
+            "PCR": 10,
+            "template_hash": "d160baae232f80c781c95094eca437bae057e60c",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "602297db5978bd51106138cc5ffff29305a1c19d576a109511d9c355d50e201b",
+            "filename_hint": "/usr/sbin/blkid"
+        },
+        {
+            "name": "btrfs",
+            "PCR": 10,
+            "template_hash": "1772f2d235595d155885f1e86954ce1347bd5b23",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "b15f4248796c390af4e1d119f1e91fb38028f19783f5b64b301ac308baf04563",
+            "filename_hint": "/usr/sbin/btrfs"
+        },
+        {
+            "name": "dmsetup",
+            "PCR": 10,
+            "template_hash": "c4436fe18b86bb70906c7b22ee7a2ffb3ec04440",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "069857645cfa604aee61d338b522b532db6ef6b1199c96d47ee709e3a4c9a9c2",
+            "filename_hint": "/usr/sbin/dmsetup"
+        },
+        {
+            "name": "mkfs.ext4",
+            "PCR": 10,
+            "template_hash": "69c1af5d0a7d892e231b4c88f3482430ec4fee03",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "09215bdf042707ba052d5c90df00fcca9ae1bdf08e0ea1f4b994bd3c117d3fbc",
+            "filename_hint": "/usr/sbin/mkfs.ext4"
+        },
+        {
+            "name": "dockerd",
+            "PCR": 10,
+            "template_hash": "82fc1faa6790df047a8c50a2d53d12c9156c50fe",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "86a9305591282a3caad5e8d52349c0b7f31cddad9a991420615eb4c27acbfc5d",
+            "filename_hint": "/usr/bin/dockerd"
+        },
+        {
+            "name": "getent",
+            "PCR": 10,
+            "template_hash": "c38a6ad68b7baa3b84d925aeab88ec12bebe4322",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "8d17f381012f64fa64c2c1c2fabefdb5c8a8e3e7613ff384bc57671265a0a632",
+            "filename_hint": "/usr/bin/getent"
+        },
+        {
+            "name": "useradd",
+            "PCR": 10,
+            "template_hash": "ea00291ea8be987b7f14efbabd9a3097cc5f0d25",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "d9c7f13d9b8ad512deec92d5c3bc3e7e6f16ea598a7a9148e0e812632790d847",
+            "filename_hint": "/usr/sbin/useradd"
+        },
+        {
+            "name": "passwd",
+            "PCR": 10,
+            "template_hash": "0000000000000000000000000000000000000000",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+            "filename_hint": "/etc/passwd"
+        },
+        {
+            "name": "group",
+            "PCR": 10,
+            "template_hash": "0000000000000000000000000000000000000000",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+            "filename_hint": "/etc/group"
+        },
+        {
+            "name": "passwd",
+            "PCR": 10,
+            "template_hash": "a7e8ff4562423eb891397829dee42d44da975905",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "a0b095c59124506fffb6d039e0af9885664cf1af47581dd2b411750b646cf63d",
+            "filename_hint": "/etc/passwd"
+        },
+        {
+            "name": "group",
+            "PCR": 10,
+            "template_hash": "49e946ec7d538a2482f1d7e7a237adf90090f7e7",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "bb92c49def0fac4518c9b6b59f9250c01c22151774f5c67b23243d501bc75735",
+            "filename_hint": "/etc/group"
+        },
+        {
+            "name": "subuid",
+            "PCR": 10,
+            "template_hash": "d2fcbb547589d15bd21475d92d8b98c0d8c9d5af",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "022cee0ea4be63868ace8085b903b41a86d3a6531d92f51236c9990fb970aad9",
+            "filename_hint": "/etc/subuid"
+        },
+        {
+            "name": "usermod",
+            "PCR": 10,
+            "template_hash": "1a8d315be378fa6b97e92ceab6b469a1f9012e30",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "8342c0f8ccabafdf677d7e14807de291ed1b357c9d01fb07d31aa569c2e728db",
+            "filename_hint": "/usr/sbin/usermod"
+        },
+        {
+            "name": "passwd",
+            "PCR": 10,
+            "template_hash": "0000000000000000000000000000000000000000",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+            "filename_hint": "/etc/passwd"
+        },
+        {
+            "name": "subgid",
+            "PCR": 10,
+            "template_hash": "23b816d7838925adaee37e4cb9f7ec7688184208",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "022cee0ea4be63868ace8085b903b41a86d3a6531d92f51236c9990fb970aad9",
+            "filename_hint": "/etc/subgid"
+        },
+        {
+            "name": "passwd",
+            "PCR": 10,
+            "template_hash": "0000000000000000000000000000000000000000",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+            "filename_hint": "/etc/passwd"
+        },
+        {
+            "name": "subuid",
+            "PCR": 10,
+            "template_hash": "ae9bb65bfd4de118c2d3e93f3a6f93c0c9e5770e",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "124ffb1cff68f4072384dfd21cdf0acd7d2e53fd9749b0f0fdaf02264805754c",
+            "filename_hint": "/etc/subuid"
+        },
+        {
+            "name": "subgid",
+            "PCR": 10,
+            "template_hash": "c59294dd07b4635846361d9863611fede382e8b3",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "124ffb1cff68f4072384dfd21cdf0acd7d2e53fd9749b0f0fdaf02264805754c",
+            "filename_hint": "/etc/subgid"
+        },
+        {
+            "name": "runc",
+            "PCR": 10,
+            "template_hash": "b5c0d0525e78364d2b8a9bbd8435833c3cde2731",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "3e13f681a94c77546dd49add0d89d9354e97d57726b5a5179e9b2d0ec8831660",
+            "filename_hint": "/usr/bin/runc"
+        },
+        {
+            "name": "docker-init",
+            "PCR": 10,
+            "template_hash": "449f926783b23701c6b4b590f5221088d930d997",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "252c9466e96bca0597a5c91d68447376a6138259401df03c931392124e60961a",
+            "filename_hint": "/usr/libexec/docker/docker-init"
+        },
+        {
+            "name": "check",
+            "PCR": 10,
+            "template_hash": "448046f99fd60b786762a4d1a59af38b75af776e",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "2ac940d3144ea22a49f4cc7b0bcc8fe78ce8d197f5382be2d4abac0dce2e96f6",
+            "filename_hint": "/var/lib/docker/100000.100000/tmp/qemu-check3750453946/check"
+        },
+        {
+            "name": "check",
+            "PCR": 10,
+            "template_hash": "944e43eca3f93e160b3726a05e5d450a9a2e31d2",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "7bc0215a35ac89e494121f793923f0bd2d792fb1b2534f45e5aea881bc2f1029",
+            "filename_hint": "/var/lib/docker/100000.100000/tmp/qemu-check3597002490/check"
+        },
+        {
+            "name": "check",
+            "PCR": 10,
+            "template_hash": "e2219ab32a8ca4b00e300900409b7f10052e55db",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "65cb74e00d666447b3bd85edb3f4f7b42d93e2322766e4a775899b4c510585b2",
+            "filename_hint": "/var/lib/docker/100000.100000/tmp/qemu-check11490792/check"
+        },
+        {
+            "name": "check",
+            "PCR": 10,
+            "template_hash": "08893b851b9884fc3b0c607e8bd091a7cb4c2498",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "fe87220353164b279682f902127128ed8fa67e4cf51577a031bce6034368e651",
+            "filename_hint": "/var/lib/docker/100000.100000/tmp/qemu-check420975154/check"
+        },
+        {
+            "name": "check",
+            "PCR": 10,
+            "template_hash": "7de61c58e95f52df93ed02c44b589c4d7e685bf1",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "ece4026fcacb01b0ee9b7eee1811b4b45945e414dfbbf4f80443ddf41ed5b4c4",
+            "filename_hint": "/var/lib/docker/100000.100000/tmp/qemu-check3549955427/check"
+        },
+        {
+            "name": "check",
+            "PCR": 10,
+            "template_hash": "32120811dfee349285b1d79c50ee5d9f27cb08f0",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "660c2177f31c387e975cb1c1fc04610f5a0d91dcc97aa691e720217c06186d48",
+            "filename_hint": "/var/lib/docker/100000.100000/tmp/qemu-check4249408892/check"
+        },
+        {
+            "name": "check",
+            "PCR": 10,
+            "template_hash": "cba23184ab4514a2d11e13b0442a960f2938a18a",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "2bf26f9fc0584cb30f796a8ef05f733aac059a178c6a16e1760aba39c7e8eb74",
+            "filename_hint": "/var/lib/docker/100000.100000/tmp/qemu-check3972185092/check"
+        },
+        {
+            "name": "check",
+            "PCR": 10,
+            "template_hash": "6c2191a52bb9f70be2ecd7a19660ab34390feb72",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "1208329d37d5ebd2cee84985097a90798aec2014f2fc26c1c01d35202260a1e8",
+            "filename_hint": "/var/lib/docker/100000.100000/tmp/qemu-check30213115/check"
+        },
+        {
+            "name": "check",
+            "PCR": 10,
+            "template_hash": "230b91efbacc00be63ee72ecd81dc264c73db782",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "603c64f1d98c4e50e89a7efe47ced62e5076419117fe318b3bf4159e8c476fb2",
+            "filename_hint": "/var/lib/docker/100000.100000/tmp/qemu-check2529606233/check"
+        },
+        {
+            "name": "check",
+            "PCR": 10,
+            "template_hash": "ba5cb0ad17855dfadf543216139bef39e6fc2459",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "4f7067f1f72b55ad3d4f48a8a096745d4d6cdf01e88a1aa754cda080b721ba8d",
+            "filename_hint": "/var/lib/docker/100000.100000/tmp/qemu-check2522090056/check"
+        },
+        {
+            "name": "more",
+            "PCR": 10,
+            "template_hash": "0d8564d25a85a67220709431c4a3fc592c59e17d",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "bf02b34faa439f7ba16348a1d0875eb295014d430dc09731500576f3782b0d66",
+            "filename_hint": "/usr/bin/more"
+        },
+        {
+            "name": "umount",
+            "PCR": 10,
+            "template_hash": "1ea0d47b3df6e84798b5091831c8dda4096bf8b9",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "c900953acc4152d50787f0924a4a5cf170cefe5dd0db14330bd9424d593c51f2",
+            "filename_hint": "/usr/bin/umount"
+        },
+        {
+            "name": "dnf-3",
+            "PCR": 10,
+            "template_hash": "4032cc597a9fdb48740a6964cbc57854203ed3cd",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "78984216a8c5a59ec9cf84de13302576d964bcfbb93439d7866648b8d9eac7b2",
+            "filename_hint": "/usr/bin/dnf-3"
+        },
+        {
+            "name": "python3.12",
+            "PCR": 10,
+            "template_hash": "d7f5b0d401eb61371f1c2a275a7492fa1e82bc6f",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "d36e6d863c2c7761826fa43fb659220b0fed2750ac71d92c2c5827503d051c10",
+            "filename_hint": "/usr/bin/python3.12"
+        },
+        {
+            "name": "rpmkeys",
+            "PCR": 10,
+            "template_hash": "f30437ed767ec3db3529cd815381c6121211afec",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "b7f748774615e7aec1ce7e933fecc5a470e9abdca57250204d857a875e533a60",
+            "filename_hint": "/usr/bin/rpmkeys"
+        },
+        {
+            "name": "groupadd",
+            "PCR": 10,
+            "template_hash": "dc16e8ddf6ae41a7f92f1752251ef72668b5e932",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "03cb577ae172805c2dd1988f321d665cbaabdb56fcfb754909cd28467d9de90b",
+            "filename_hint": "/usr/sbin/groupadd"
+        },
+        {
+            "name": "group",
+            "PCR": 10,
+            "template_hash": "206f220dce5afb7e261fef0f0b1efe02ef7a3981",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "3a7435045fcafe974d34925d8c780465394b3cf64a3c2264f943157fe8b747af",
+            "filename_hint": "/etc/group"
+        },
+        {
+            "name": "passwd",
+            "PCR": 10,
+            "template_hash": "0000000000000000000000000000000000000000",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+            "filename_hint": "/etc/passwd"
+        },
+        {
+            "name": "passwd",
+            "PCR": 10,
+            "template_hash": "cc7749935464b71ad80203ea48b59441f62a58c2",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "254c880b1c845e0ca36b4b44335d0f42144e9529ab5e51a8155369d1114106c6",
+            "filename_hint": "/etc/passwd"
+        },
+        {
+            "name": "systemd-update-helper",
+            "PCR": 10,
+            "template_hash": "e325f12e338c5910816c3371feb379a44a033366",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "df8e6fe959f5b6df806ab22c897abeaa1bc8bd3004bcd2b5a636dbee370a8dcc",
+            "filename_hint": "/usr/lib/systemd/systemd-update-helper"
+        },
+        {
+            "name": "group",
+            "PCR": 10,
+            "template_hash": "97a4ef78579b109aca2b58162839944cb98b550c",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "3943b6ce8d7c9d748873bf0e9de210c6a514593e018f20c22b185d488731fbdf",
+            "filename_hint": "/etc/group"
+        },
+        {
+            "name": "passwd",
+            "PCR": 10,
+            "template_hash": "0000000000000000000000000000000000000000",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+            "filename_hint": "/etc/passwd"
+        },
+        {
+            "name": "passwd",
+            "PCR": 10,
+            "template_hash": "8f07d941d30a04becb2058fa34b5fe5a975e2533",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "b51b9357ab314c4a403c84f58769f2898d919326ffd785351d831d88b13a0f60",
+            "filename_hint": "/etc/passwd"
+        },
+        {
+            "name": "tcpdump",
+            "PCR": 10,
+            "template_hash": "14a87c3fc96182815df9fe084f0858d95274b0ad",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "37676f032166132725083dd71adc5e935ef4d4fa96a9267ed54693c3ce4b97d2",
+            "filename_hint": "/usr/sbin/tcpdump"
+        },
+        {
+            "name": "ssh-host-keys-migration.sh",
+            "PCR": 10,
+            "template_hash": "b2e064524fef6fbc0ab794c773c3129f777c0a97",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "423ed19b93c41154c490f15f2989294e67ee31582d60e08f311602cea4abaf82",
+            "filename_hint": "/usr/libexec/openssh/ssh-host-keys-migration.sh"
+        },
+        {
+            "name": "sshd-keygen",
+            "PCR": 10,
+            "template_hash": "5aab095999fe80ca7ea4f7781ebbe5edb6bce220",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "e9c3ed2b2cdfb5d8a776f7b2019795036d92ee0b96b21dc22d91536b21e95209",
+            "filename_hint": "/usr/libexec/openssh/sshd-keygen"
+        },
+        {
+            "name": "sshd",
+            "PCR": 10,
+            "template_hash": "f6832e7b00d1553b010078e016ab96add69525e5",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "cf02f23147034e96d6dc07bbd34f85d47c7e04ee4b78703488c63fc783bd5e7a",
+            "filename_hint": "/usr/sbin/sshd"
+        },
+        {
+            "name": "ssh-keygen",
+            "PCR": 10,
+            "template_hash": "0966108f0b2dd735f9554536bb50a12554818143",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "e50c9a217b037b21e711303c17fed230864c9d47ea4e80568d7efee52b2c1f35",
+            "filename_hint": "/usr/bin/ssh-keygen"
+        },
+        {
+            "name": "sshd_config",
+            "PCR": 10,
+            "template_hash": "1d67e7795402c42fc3802c4bef54b40865ca7e46",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "d72b96c3e68685cdbacc572126204d098ce7feeb6f60cc17059976d55c53d3f2",
+            "filename_hint": "/etc/ssh/sshd_config"
+        },
+        {
+            "name": "40-redhat-crypto-policies.conf",
+            "PCR": 10,
+            "template_hash": "460ebc912176d40df3c94ecbec9cf2cd4202a050",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "ca62cf339a9884d687e6d8dedb5a7d8dcc28065acd255c85735170e8339e82b6",
+            "filename_hint": "/etc/ssh/sshd_config.d/40-redhat-crypto-policies.conf"
+        },
+        {
+            "name": "50-redhat.conf",
+            "PCR": 10,
+            "template_hash": "728f10b7253e556237587aeec1c48f21ca9fdf3c",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "42c002337ff9532d00142ef08c38e38f82e2ba99e72400d73951435f2537cd89",
+            "filename_hint": "/etc/ssh/sshd_config.d/50-redhat.conf"
+        },
+        {
+            "name": "ssh_host_ecdsa_key",
+            "PCR": 10,
+            "template_hash": "2b5a6e9fa42cdbb5abd88043909bc3a40befc966",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "ad9ba571443c0062ad76a70b8d17828752e6a3a03da5767b1057f9cf37c506be",
+            "filename_hint": "/etc/ssh/ssh_host_ecdsa_key"
+        },
+        {
+            "name": "ssh_host_ecdsa_key.pub",
+            "PCR": 10,
+            "template_hash": "f2558fd77bc8ed8f0c11632a23bb9a92bd93f1bf",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "62c958cdce32fa14cffb488073d4a4810fa1054f2a1e0cf7d142fdad816b5f62",
+            "filename_hint": "/etc/ssh/ssh_host_ecdsa_key.pub"
+        },
+        {
+            "name": "ssh_host_ed25519_key",
+            "PCR": 10,
+            "template_hash": "2ecc1f7bf382cee5bf75bb061be57307e8be2029",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "38b598b4456283c1fe99a4268dd18d74553e8ecfcc5965b01668a641de0adf1e",
+            "filename_hint": "/etc/ssh/ssh_host_ed25519_key"
+        },
+        {
+            "name": "systemd-tty-ask-password-agent",
+            "PCR": 10,
+            "template_hash": "b72bcd71282f30fb57b2639df6bf8c757a901d4f",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "c67d75673e7b6f6b342589d8e3c48f3e05028211850e0ef81357aff69e7ea7a1",
+            "filename_hint": "/usr/bin/systemd-tty-ask-password-agent"
+        },
+        {
+            "name": "ssh_host_ed25519_key.pub",
+            "PCR": 10,
+            "template_hash": "cb811feefa54d9eb8750f1fa89cb8df91d7a418a",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "869143f9daaf4298c8ab76258439690bb825f436917e70984fe338a8b6a4e167",
+            "filename_hint": "/etc/ssh/ssh_host_ed25519_key.pub"
+        },
+        {
+            "name": "chmod",
+            "PCR": 10,
+            "template_hash": "fa4f316c6a4020a06c9ac364611f61fd3727955c",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "9db9491a171289bd248e9312e23dc36c0f82ccc67103a4d33e4a86dba01968c3",
+            "filename_hint": "/usr/bin/chmod"
+        },
+        {
+            "name": "setfiles",
+            "PCR": 10,
+            "template_hash": "3f589b89c068a4fe908f078bce2d0563f63e248a",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "658a14edb89d46f7419dbc4082ae81f729a5825a18044b675bfb434ff1261e98",
+            "filename_hint": "/usr/sbin/setfiles"
+        },
+        {
+            "name": "passwd",
+            "PCR": 10,
+            "template_hash": "0000000000000000000000000000000000000000",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+            "filename_hint": "/etc/passwd"
+        },
+        {
+            "name": "group",
+            "PCR": 10,
+            "template_hash": "0000000000000000000000000000000000000000",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+            "filename_hint": "/etc/group"
+        },
+        {
+            "name": "passwd",
+            "PCR": 10,
+            "template_hash": "d040486122aa7e51da845c89aee4080366632f08",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "f5a030d5ebd5045ce1849cdc2abbc7d3359682fe0260e45297de669af2c23d69",
+            "filename_hint": "/etc/passwd"
+        },
+        {
+            "name": "group",
+            "PCR": 10,
+            "template_hash": "91fb44f7abc35d2bb11c02dbb08ce7042e54263d",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "f4cc8274d555d9cac4bc4e474924a6e59ac07bbb71da0a65e44607c6fc71ad14",
+            "filename_hint": "/etc/group"
+        },
+        {
+            "name": "passwd",
+            "PCR": 10,
+            "template_hash": "31126ae335d3fe94cae9d42a1adb6bb3220bd741",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "d345f3e78749a2a52a7959a6c41c9fa4d6bc52210cd01adf710fbdf03ebd86a8",
+            "filename_hint": "/usr/bin/passwd"
+        },
+        {
+            "name": "sudo",
+            "PCR": 10,
+            "template_hash": "d1266a3e7bd4f47aed55b3d603271b78b1c96874",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "26b3f9a3af73ee38aefd9f0c9b964bb3abf1bb5582cca43b2f305f6ddc2bb5c8",
+            "filename_hint": "/usr/bin/sudo"
+        },
+        {
+            "name": "sudoers",
+            "PCR": 10,
+            "template_hash": "80ab936386a26b93025a431f3bbed343d52012f0",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "c63df9a912d5f33614f0daab3996b400d36cac6e651a8b110f02dad15f885572",
+            "filename_hint": "/etc/sudoers"
+        },
+        {
+            "name": "debug",
+            "PCR": 10,
+            "template_hash": "f2a49fbeb12cd34ec5f42895ba4ec734594fa707",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "eda76d29cd95e99c6f2762da361368712047627c0fb8002c38d32c49091c5fd3",
+            "filename_hint": "/etc/sudoers.d/debug"
+        },
+        {
+            "name": "group",
+            "PCR": 10,
+            "template_hash": "64a0a16d854d357756fcc29b1734ab1d82cfa7bd",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "31c9e63714e63f34d1a91997a110aa5c1150bf71450620f41c458770e5715b24",
+            "filename_hint": "/etc/group"
+        },
+        {
+            "name": "grub2-set-bootflag",
+            "PCR": 10,
+            "template_hash": "35872fac3083cb1d1610c1fc813fdebb4784fff2",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "dacdc7f3374a1baf1681b85de3ed209f1e967f9d7213a72d6e0c17b4f47195d4",
+            "filename_hint": "/usr/sbin/grub2-set-bootflag"
+        },
+        {
+            "name": "docker",
+            "PCR": 10,
+            "template_hash": "c54571edc86acab5fca0cb8c91d69e6d6ca04ef6",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "079e69a3ff194bde96cabc52b7940b2c2e3821993564b0525e424140b5043710",
+            "filename_hint": "/usr/bin/docker"
+        }
+    ],
+    "sys_info": {
+        "kernel_version": "6.13.12-100.fc40.x86_64",
+        "os_family": "GNU/Linux",
+        "os_name": "Unknown OS"
+    }
+}
