@@ -1,0 +1,441 @@
+{
+    "ima_measurements": [
+        {
+            "name": "boot_aggregate",
+            "PCR": 10,
+            "template_hash": "b732c7b2631b0ccd655c0cba71d22ed558fa0641",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "60dd5d5b6c59bf7717af61bde2c9f569093c29e4bd579eeb58e7159a3c6d722a",
+            "filename_hint": "boot_aggregate"
+        },
+        {
+            "name": "bpf_preload.ko.xz",
+            "PCR": 10,
+            "template_hash": "9eafc69e89b84323146d13d560465baff9c8713b",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "1f2335cce9a23a5065a7e7f6972170f0cd6c3869da842d1bd81c87d79952fa58",
+            "filename_hint": "/usr/lib/modules/6.14.4-100.fc40.x86_64/kernel/kernel/bpf/preload/bpf_preload.ko.xz"
+        },
+        {
+            "name": "nfnetlink.ko.xz",
+            "PCR": 10,
+            "template_hash": "92fabe99b79710f0d244d290069b87f9a1e153cf",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "23b331852b45cc165153ab1512720e7db438d354f34fb588264a61ab1ddf144f",
+            "filename_hint": "/usr/lib/modules/6.14.4-100.fc40.x86_64/kernel/net/netfilter/nfnetlink.ko.xz"
+        },
+        {
+            "name": "fuse.ko.xz",
+            "PCR": 10,
+            "template_hash": "836f3f5c06075f03b6c5749ca96158bee29ece5d",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "ac33c83bdb75fdcfd3077bdde18a6c7c3912856fbbc02b88448d3895b1968fd6",
+            "filename_hint": "/usr/lib/modules/6.14.4-100.fc40.x86_64/kernel/fs/fuse/fuse.ko.xz"
+        },
+        {
+            "name": "loop.ko.xz",
+            "PCR": 10,
+            "template_hash": "c02566b44abb30045aa82f376391c49798144c1c",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "a819166fdf272db306d16e94c616b763a4957683825e269dd58856fe3bed47f8",
+            "filename_hint": "/usr/lib/modules/6.14.4-100.fc40.x86_64/kernel/drivers/block/loop.ko.xz"
+        },
+        {
+            "name": "hv_vmbus.ko.xz",
+            "PCR": 10,
+            "template_hash": "e9da3f27e0ba3b8e6f8038bad75a565dcee20804",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "524ca97067b6eed0d142c45ea1c1111ca863b6ddfdc20b5cd1bba4b1e6ae2928",
+            "filename_hint": "/usr/lib/modules/6.14.4-100.fc40.x86_64/kernel/drivers/hv/hv_vmbus.ko.xz"
+        },
+        {
+            "name": "soundcore.ko.xz",
+            "PCR": 10,
+            "template_hash": "2cb340a22c20dbf331c12d4b997ddc30a4579f07",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "2a94c1be6faad8b17d2d5e98494956c0578255bf80b1e6413a5d559fc6a010ba",
+            "filename_hint": "/usr/lib/modules/6.14.4-100.fc40.x86_64/kernel/sound/soundcore.ko.xz"
+        },
+        {
+            "name": "snd.ko.xz",
+            "PCR": 10,
+            "template_hash": "3302b52f40e92be7f0227f33fa2a3b3d024f87b7",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "bbf1dc35028d39304c7129dec247dc41b0656c965087d8368c7228074b982436",
+            "filename_hint": "/usr/lib/modules/6.14.4-100.fc40.x86_64/kernel/sound/core/snd.ko.xz"
+        },
+        {
+            "name": "sha1-ssse3.ko.xz",
+            "PCR": 10,
+            "template_hash": "e026ab00525cc40e9eff8461a2e30bb63f6e73a5",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "e71bdbe1ec8764d7b13e1675e81b0b18a3ba6409bdb556099761fb7b09b7b108",
+            "filename_hint": "/usr/lib/modules/6.14.4-100.fc40.x86_64/kernel/arch/x86/crypto/sha1-ssse3.ko.xz"
+        },
+        {
+            "name": "sha256-ssse3.ko.xz",
+            "PCR": 10,
+            "template_hash": "e1e3b003fe38113d4ff3ed987d0bff81e51daaba",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "82b41d26dc7c9ae43d3a5f413784dc0f40789838d30c429b42bc8f253fdcc42e",
+            "filename_hint": "/usr/lib/modules/6.14.4-100.fc40.x86_64/kernel/arch/x86/crypto/sha256-ssse3.ko.xz"
+        },
+        {
+            "name": "snd-timer.ko.xz",
+            "PCR": 10,
+            "template_hash": "1d69ed9d42a682daddc4e1f2dc2977c2978f38f8",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "f81d65b891216e78a880e14b31717a332d877db0c20183f5e8f050cb869873c8",
+            "filename_hint": "/usr/lib/modules/6.14.4-100.fc40.x86_64/kernel/sound/core/snd-timer.ko.xz"
+        },
+        {
+            "name": "hv_utils.ko.xz",
+            "PCR": 10,
+            "template_hash": "311fe54dfa7f5b89a037d1ea209abc43852b1fb2",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "22ac89dd38abb25c3546ee456b9953a70dfad571b99bc83280415248842f4ff3",
+            "filename_hint": "/usr/lib/modules/6.14.4-100.fc40.x86_64/kernel/drivers/hv/hv_utils.ko.xz"
+        },
+        {
+            "name": "hv_netvsc.ko.xz",
+            "PCR": 10,
+            "template_hash": "5f4cb2b2e0226ca93948e493038ae127e036c36e",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "8876ee1bbba1340fdd4b5f8a9c6b9c1cdafdba137963dc2eeb8648e98114fa44",
+            "filename_hint": "/usr/lib/modules/6.14.4-100.fc40.x86_64/kernel/drivers/net/hyperv/hv_netvsc.ko.xz"
+        },
+        {
+            "name": "scsi_transport_fc.ko.xz",
+            "PCR": 10,
+            "template_hash": "d0e65746db4cca447edc39a8628fa5b0ba8ac51e",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "3716f8781e48505a4cfa916710bddc2084dd90014656465ec6fe45d75a29e86d",
+            "filename_hint": "/usr/lib/modules/6.14.4-100.fc40.x86_64/kernel/drivers/scsi/scsi_transport_fc.ko.xz"
+        },
+        {
+            "name": "snd-pcm.ko.xz",
+            "PCR": 10,
+            "template_hash": "e38ecdd16db5f3ec42536f807fbe93ed867f61f6",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "8d057df39b5894b2a4395bdb84b0981bc011f072f5bf1a905b3e9fbe3a8edf2a",
+            "filename_hint": "/usr/lib/modules/6.14.4-100.fc40.x86_64/kernel/sound/core/snd-pcm.ko.xz"
+        },
+        {
+            "name": "sha512-ssse3.ko.xz",
+            "PCR": 10,
+            "template_hash": "5ec941c2b2fcaf16e09d360b161957b326f14d7d",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "aea33998df57445cd8c0c067bbb73155e7ba9e82335e0474a0938befa963c9c4",
+            "filename_hint": "/usr/lib/modules/6.14.4-100.fc40.x86_64/kernel/arch/x86/crypto/sha512-ssse3.ko.xz"
+        },
+        {
+            "name": "ghash-clmulni-intel.ko.xz",
+            "PCR": 10,
+            "template_hash": "60f977f25c4da1b0f1d5309547ab0c026c8ecc85",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "905866ba23298060c5878c4f28ac9a7425e1dad04ebda2ccd1272479dfd47a51",
+            "filename_hint": "/usr/lib/modules/6.14.4-100.fc40.x86_64/kernel/arch/x86/crypto/ghash-clmulni-intel.ko.xz"
+        },
+        {
+            "name": "hv_storvsc.ko.xz",
+            "PCR": 10,
+            "template_hash": "e0d819824c1f8667499a624e51eac1e4dd8826cc",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "c974a66d28847d04bc3d3a45723d26d536b9d1e571eb716331ea099e5178e74c",
+            "filename_hint": "/usr/lib/modules/6.14.4-100.fc40.x86_64/kernel/drivers/scsi/hv_storvsc.ko.xz"
+        },
+        {
+            "name": "polyval-generic.ko.xz",
+            "PCR": 10,
+            "template_hash": "12cf557037755b85eb629d0bc989a4a89c65fe5e",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "0c88c994d914dd8504108845462a4c10bf83a7ed2058ad000b1b64122431c288",
+            "filename_hint": "/usr/lib/modules/6.14.4-100.fc40.x86_64/kernel/crypto/polyval-generic.ko.xz"
+        },
+        {
+            "name": "polyval-clmulni.ko.xz",
+            "PCR": 10,
+            "template_hash": "ad30211735f2d32e6c928e3c1f434b21dbe545e7",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "0d588b09b2546a17e5aa8b36a7460e11bda0c65f4bcd91ddd59b134eca8896ea",
+            "filename_hint": "/usr/lib/modules/6.14.4-100.fc40.x86_64/kernel/arch/x86/crypto/polyval-clmulni.ko.xz"
+        },
+        {
+            "name": "snd-pcsp.ko.xz",
+            "PCR": 10,
+            "template_hash": "0d97ab45c43db6d601acb0aee07fa3b7d055c28a",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "7906a492c55a691db7f204dfd3d6633868088a354bbfba4ef4c0845ec4ea5fb5",
+            "filename_hint": "/usr/lib/modules/6.14.4-100.fc40.x86_64/kernel/sound/drivers/pcsp/snd-pcsp.ko.xz"
+        },
+        {
+            "name": "edac_mce_amd.ko.xz",
+            "PCR": 10,
+            "template_hash": "51a4ffb9a41dcf6dcf9c37f27740393d6c985d51",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "94ef75f96c625fa11a72eff4889c9bd922db4bf13ed11c7a75af508819eb3765",
+            "filename_hint": "/usr/lib/modules/6.14.4-100.fc40.x86_64/kernel/drivers/edac/edac_mce_amd.ko.xz"
+        },
+        {
+            "name": "intel_rapl_common.ko.xz",
+            "PCR": 10,
+            "template_hash": "f458e8ee3d1c50162cbb98efd1532d9ffbd867ef",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "97f929aa306add3e168b25fe0b7256cb5af58fc09e6c606ff3997c4e9fd68709",
+            "filename_hint": "/usr/lib/modules/6.14.4-100.fc40.x86_64/kernel/drivers/powercap/intel_rapl_common.ko.xz"
+        },
+        {
+            "name": "amd_atl.ko.xz",
+            "PCR": 10,
+            "template_hash": "efdb17110a497592f3e8cf398652d0eb1050c07a",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "02dce2df19d58619079536b680f52ac102f15c27fe3124334135df98da1d518d",
+            "filename_hint": "/usr/lib/modules/6.14.4-100.fc40.x86_64/kernel/drivers/ras/amd/atl/amd_atl.ko.xz"
+        },
+        {
+            "name": "intel_rapl_msr.ko.xz",
+            "PCR": 10,
+            "template_hash": "c935b60553914c97aed6aa226477f0c45150fd55",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "d54c5090c7e195b71a8b990616907793be656a1099fff4aa364ed980d54190e4",
+            "filename_hint": "/usr/lib/modules/6.14.4-100.fc40.x86_64/kernel/drivers/powercap/intel_rapl_msr.ko.xz"
+        },
+        {
+            "name": "llc.ko.xz",
+            "PCR": 10,
+            "template_hash": "47e48ee4d0ca255c60db98d9b0823b049bc74187",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "286dec9529889fb584006e2388044b5ec02709b572d432c87cba0b4ac5b2bdc9",
+            "filename_hint": "/usr/lib/modules/6.14.4-100.fc40.x86_64/kernel/net/llc/llc.ko.xz"
+        },
+        {
+            "name": "stp.ko.xz",
+            "PCR": 10,
+            "template_hash": "c2d5d97f9115b809b2f154e4017f874b62ed911c",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "c3217ac6259e77d0bcaebf5a2bda5deaa41c1bc2f200f96938c0ee8d87a37d4f",
+            "filename_hint": "/usr/lib/modules/6.14.4-100.fc40.x86_64/kernel/net/802/stp.ko.xz"
+        },
+        {
+            "name": "bridge.ko.xz",
+            "PCR": 10,
+            "template_hash": "4123d4a92280fc2a0c43e8db537942cf8184d528",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "3c47c79eb0a02fea7a05bd16b36cc17e646596eaeba20e2db5286661edbeabd0",
+            "filename_hint": "/usr/lib/modules/6.14.4-100.fc40.x86_64/kernel/net/bridge/bridge.ko.xz"
+        },
+        {
+            "name": "br_netfilter.ko.xz",
+            "PCR": 10,
+            "template_hash": "744f9cac1b0331f265ba42ff83f5ab0ef50bc2c2",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "d045ae3bae94a0a0f8be5b105262c0bb121f3cb52dec27516f8fb951ce9d2643",
+            "filename_hint": "/usr/lib/modules/6.14.4-100.fc40.x86_64/kernel/net/bridge/br_netfilter.ko.xz"
+        },
+        {
+            "name": "overlay.ko.xz",
+            "PCR": 10,
+            "template_hash": "bf95cf11901ab3c11f7ec80993d0327daf0f1394",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "e8a56afe6b4ff83c89ff08925990296096e5f84c38c41c2429b3a77e7bb26ccc",
+            "filename_hint": "/usr/lib/modules/6.14.4-100.fc40.x86_64/kernel/fs/overlayfs/overlay.ko.xz"
+        },
+        {
+            "name": "fat.ko.xz",
+            "PCR": 10,
+            "template_hash": "1f76e365c62f4da8fa8df14d1e3aef6177508b18",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "30884190d3f5e4ce8a3d641a8dc73164c58633b1ba23a5ae2c41c1beaa30a9f8",
+            "filename_hint": "/usr/lib/modules/6.14.4-100.fc40.x86_64/kernel/fs/fat/fat.ko.xz"
+        },
+        {
+            "name": "vfat.ko.xz",
+            "PCR": 10,
+            "template_hash": "1a5c7e62cededdfba481f6c2482b26b3c9ff9613",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "b436c56f174405d760fe83e1adaceb5f31f824e8d0ed5225e4d8c5b513e0fef8",
+            "filename_hint": "/usr/lib/modules/6.14.4-100.fc40.x86_64/kernel/fs/fat/vfat.ko.xz"
+        },
+        {
+            "name": "ip_tables.ko.xz",
+            "PCR": 10,
+            "template_hash": "f9980f514182bcf1d1212619ff44c8b2309c5a4b",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "af6355ffe7b1a2ae8b4704b893b2713420ff2adfc358d35e05a040f9d3018f03",
+            "filename_hint": "/usr/lib/modules/6.14.4-100.fc40.x86_64/kernel/net/ipv4/netfilter/ip_tables.ko.xz"
+        },
+        {
+            "name": "iptable_filter.ko.xz",
+            "PCR": 10,
+            "template_hash": "386e169ad5125c3f65082215687f87238d0053a1",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "a8b4e5b3f8b568a7502d26fad681f05bbb07cb9d86f8de852efb22e30c68689b",
+            "filename_hint": "/usr/lib/modules/6.14.4-100.fc40.x86_64/kernel/net/ipv4/netfilter/iptable_filter.ko.xz"
+        },
+        {
+            "name": "nf_defrag_ipv4.ko.xz",
+            "PCR": 10,
+            "template_hash": "7664aca937de3f0333b0b0824abafdc2fa621f67",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "1ca63bff5154052a183a84b875c2c2c92f4739a787c422cc6a4d823688650f58",
+            "filename_hint": "/usr/lib/modules/6.14.4-100.fc40.x86_64/kernel/net/ipv4/netfilter/nf_defrag_ipv4.ko.xz"
+        },
+        {
+            "name": "nf_defrag_ipv6.ko.xz",
+            "PCR": 10,
+            "template_hash": "674c48779de60f397f4b99fd423958fd290a1e50",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "f383a6409cfdc48cbde5db7d6f7ac98db1515d3bfa144effabfe6cb6e5ba1b3e",
+            "filename_hint": "/usr/lib/modules/6.14.4-100.fc40.x86_64/kernel/net/ipv6/netfilter/nf_defrag_ipv6.ko.xz"
+        },
+        {
+            "name": "nf_conntrack.ko.xz",
+            "PCR": 10,
+            "template_hash": "aece6d719cc10e2db8e7dde4ad740e12919620bf",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "e15df49408b25376cf9dc18c410032539e186690e64ea8d6c3ba0de418680b19",
+            "filename_hint": "/usr/lib/modules/6.14.4-100.fc40.x86_64/kernel/net/netfilter/nf_conntrack.ko.xz"
+        },
+        {
+            "name": "xt_conntrack.ko.xz",
+            "PCR": 10,
+            "template_hash": "63d42a302134c97712f6e1ca39290d0ca254a3d1",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "8cc111cf5f88cb3d2c7501b6da8e0331ca629cbacf89ace2fdc4490db6f79574",
+            "filename_hint": "/usr/lib/modules/6.14.4-100.fc40.x86_64/kernel/net/netfilter/xt_conntrack.ko.xz"
+        },
+        {
+            "name": "rfkill.ko.xz",
+            "PCR": 10,
+            "template_hash": "dd52176de9a6c0a096a050b6f1ea5b2ac9e3d8bb",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "589c851c1b83e8ab9dce8c7c43946ef1caaf9afcb284a835c5ecd79df1fcec21",
+            "filename_hint": "/usr/lib/modules/6.14.4-100.fc40.x86_64/kernel/net/rfkill/rfkill.ko.xz"
+        },
+        {
+            "name": "cfg80211.ko.xz",
+            "PCR": 10,
+            "template_hash": "603f510ea03fd9b31b81ccfd710042379ed6984a",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "14f3db3320ac051dc1c1ef8e6d5edf87fae3e93719804cf44bacf64d8f5be2d7",
+            "filename_hint": "/usr/lib/modules/6.14.4-100.fc40.x86_64/kernel/net/wireless/cfg80211.ko.xz"
+        },
+        {
+            "name": "dm-crypt.ko.xz",
+            "PCR": 10,
+            "template_hash": "f5d05f25e0cd7750e80eaba9c811c792870baa72",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "e32f13b0e1d748d8e3b2f3baa58909b989c57b1d2529a0e1ce5503d60f43ed6b",
+            "filename_hint": "/usr/lib/modules/6.14.4-100.fc40.x86_64/kernel/drivers/md/dm-crypt.ko.xz"
+        },
+        {
+            "name": "xt_addrtype.ko.xz",
+            "PCR": 10,
+            "template_hash": "7a62df4ef91042f1a32f0898c1b7fbfae6d070c2",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "006a6a7f12fae69b31e8d1ed58094a3f7ffebb52ca5f2ec5673f6de8c59cd98b",
+            "filename_hint": "/usr/lib/modules/6.14.4-100.fc40.x86_64/kernel/net/netfilter/xt_addrtype.ko.xz"
+        },
+        {
+            "name": "nf_nat.ko.xz",
+            "PCR": 10,
+            "template_hash": "0b924875b94366eb5ff72a2a05baa48b2c4c3b45",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "33e03a86b17eb3b216f8c1a3530f96fdcfc7bc29b58ead85f74fd7bd1ceff4dd",
+            "filename_hint": "/usr/lib/modules/6.14.4-100.fc40.x86_64/kernel/net/netfilter/nf_nat.ko.xz"
+        },
+        {
+            "name": "iptable_nat.ko.xz",
+            "PCR": 10,
+            "template_hash": "b596b50b9fb05707aa8cb083b54f03db1df24e1b",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "5f904ab4ff52c96cc99c9bfae8ad70ff5a7540d43633e2873a9d1daded45bb56",
+            "filename_hint": "/usr/lib/modules/6.14.4-100.fc40.x86_64/kernel/net/ipv4/netfilter/iptable_nat.ko.xz"
+        },
+        {
+            "name": "ip_set.ko.xz",
+            "PCR": 10,
+            "template_hash": "75744680278d8bb9e4226224f6f7bb422fb4e51a",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "ea8a27cff835dab1716f54e9070291c734a6c92f6583fdfa73cd0f98b4f68546",
+            "filename_hint": "/usr/lib/modules/6.14.4-100.fc40.x86_64/kernel/net/netfilter/ipset/ip_set.ko.xz"
+        },
+        {
+            "name": "xt_set.ko.xz",
+            "PCR": 10,
+            "template_hash": "abf55f24fe4cee785062e5a313ad94a40fba47fc",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "3311665ec61bd5b739a9af765b419e6f1a8d1b133381c8ef69e7daf53b497e59",
+            "filename_hint": "/usr/lib/modules/6.14.4-100.fc40.x86_64/kernel/net/netfilter/xt_set.ko.xz"
+        },
+        {
+            "name": "ip6_tables.ko.xz",
+            "PCR": 10,
+            "template_hash": "18716e1eb67f026abb5b3b1c852d5d6b5e536a77",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "200a41caabf3729353fae5aaed189f139548157b0fbe535551d966e8ac8e7381",
+            "filename_hint": "/usr/lib/modules/6.14.4-100.fc40.x86_64/kernel/net/ipv6/netfilter/ip6_tables.ko.xz"
+        },
+        {
+            "name": "xt_MASQUERADE.ko.xz",
+            "PCR": 10,
+            "template_hash": "c9cbf7effaf1a4bc1dd79b386cff90fffe152b31",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "15a57d6a8a9649f47e3c61a3547dd52c14cf619ff4e0a88ec682068581d78fa2",
+            "filename_hint": "/usr/lib/modules/6.14.4-100.fc40.x86_64/kernel/net/netfilter/xt_MASQUERADE.ko.xz"
+        }
+    ],
+    "sys_info": {
+        "kernel_version": "6.14.4-100.fc40.x86_64",
+        "os_family": "GNU/Linux",
+        "os_name": "Unknown OS"
+    }
+}
