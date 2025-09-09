@@ -1,0 +1,135 @@
+{
+    "ima_measurements": [
+        {
+            "name": "boot_aggregate",
+            "PCR": 10,
+            "template_hash": "d354d517eae500b5a59e395e12e7bc45d2169392",
+            "ima_template": "ima-sig",
+            "filedata_alg": "sha256",
+            "filedata_hash": "26d871e5b552b0421f48d6b26295c75a670e0cce43da827b89792ce66399404f",
+            "filename_hint": "boot_aggregate"
+        },
+        {
+            "name": "hv_vmbus.ko",
+            "PCR": 10,
+            "template_hash": "105ae2adae34e6b58993f1acf23365ec5cc0d06d",
+            "ima_template": "ima-sig",
+            "filedata_alg": "sha256",
+            "filedata_hash": "8ec05f8a7cf2e572678be0f48a4b9cd2a88663c05790dc6d3f2771d48df3db92",
+            "filename_hint": "/usr/lib/modules/5.14.0-503.26.1.el9_5.x86_64/kernel/drivers/hv/hv_vmbus.ko"
+        },
+        {
+            "name": "crc32c-intel.ko",
+            "PCR": 10,
+            "template_hash": "865e4a1347e1996138cf8776056c3b6cf53fe752",
+            "ima_template": "ima-sig",
+            "filedata_alg": "sha256",
+            "filedata_hash": "c051f33489532f4e2a03a90db3e9a092e78ea6f31eb0a01edaaeb232f4ccb107",
+            "filename_hint": "/usr/lib/modules/5.14.0-503.26.1.el9_5.x86_64/kernel/arch/x86/crypto/crc32c-intel.ko"
+        },
+        {
+            "name": "crc32-pclmul.ko",
+            "PCR": 10,
+            "template_hash": "a3d52a9a5de27e969814598e521269dc5f0b91b4",
+            "ima_template": "ima-sig",
+            "filedata_alg": "sha256",
+            "filedata_hash": "14fa475dbab912c86b13f2e8316e9e2a6e4e4da6ed8fa05c40e464175dc7b824",
+            "filename_hint": "/usr/lib/modules/5.14.0-503.26.1.el9_5.x86_64/kernel/arch/x86/crypto/crc32-pclmul.ko"
+        },
+        {
+            "name": "scsi_transport_fc.ko",
+            "PCR": 10,
+            "template_hash": "c5952d47bf58941d017f7ddea3eba470d26791dc",
+            "ima_template": "ima-sig",
+            "filedata_alg": "sha256",
+            "filedata_hash": "26f9a2fef9a58931654a2d45d160e5a4aadce5735ea09244ee84689eb24aa6e1",
+            "filename_hint": "/usr/lib/modules/5.14.0-503.26.1.el9_5.x86_64/kernel/drivers/scsi/scsi_transport_fc.ko"
+        },
+        {
+            "name": "hv_storvsc.ko",
+            "PCR": 10,
+            "template_hash": "c8130817b705f0120a5ea1716d9cae5afeb0baf2",
+            "ima_template": "ima-sig",
+            "filedata_alg": "sha256",
+            "filedata_hash": "7547e74c82441b296d4e26c8c885179c6f2b29b3e9f14354afa04b4a3514d6ec",
+            "filename_hint": "/usr/lib/modules/5.14.0-503.26.1.el9_5.x86_64/kernel/drivers/scsi/hv_storvsc.ko"
+        },
+        {
+            "name": "sg.ko",
+            "PCR": 10,
+            "template_hash": "be830d3c55ef428fe8918eca4af341b2c7f74239",
+            "ima_template": "ima-sig",
+            "filedata_alg": "sha256",
+            "filedata_hash": "9932145fcd0efbb5f8eb0e62345c40034d4434c9a4e5d59a8139eb0c8cdf256b",
+            "filename_hint": "/usr/lib/modules/5.14.0-503.26.1.el9_5.x86_64/kernel/drivers/scsi/sg.ko"
+        },
+        {
+            "name": "t10-pi.ko",
+            "PCR": 10,
+            "template_hash": "55fcb72672d7342b5222ae60dc5c073770ccb5fd",
+            "ima_template": "ima-sig",
+            "filedata_alg": "sha256",
+            "filedata_hash": "e14f2b3c58e7645008b5a684b6cc914f59b5d8b3ff7d4b357aa7088825fced06",
+            "filename_hint": "/usr/lib/modules/5.14.0-503.26.1.el9_5.x86_64/kernel/block/t10-pi.ko"
+        },
+        {
+            "name": "cdrom.ko",
+            "PCR": 10,
+            "template_hash": "5ea246caf888b07b1f8a4d19886d85c8cafbd059",
+            "ima_template": "ima-sig",
+            "filedata_alg": "sha256",
+            "filedata_hash": "887626981f43fd66dd7ded2528e8be3c5e2c2f872ac2f8a0fe3b5fd2703b5d99",
+            "filename_hint": "/usr/lib/modules/5.14.0-503.26.1.el9_5.x86_64/kernel/drivers/cdrom/cdrom.ko"
+        },
+        {
+            "name": "sd_mod.ko",
+            "PCR": 10,
+            "template_hash": "289fb3f14d173e1a23183632772a93cfedb7cf69",
+            "ima_template": "ima-sig",
+            "filedata_alg": "sha256",
+            "filedata_hash": "6df382f067f615258b5fb1960c54a32fdf4e1f058d8ed001ca98fed49cde8ec3",
+            "filename_hint": "/usr/lib/modules/5.14.0-503.26.1.el9_5.x86_64/kernel/drivers/scsi/sd_mod.ko"
+        },
+        {
+            "name": "sr_mod.ko",
+            "PCR": 10,
+            "template_hash": "ada39f583db0979ff110777beefde209e14325c4",
+            "ima_template": "ima-sig",
+            "filedata_alg": "sha256",
+            "filedata_hash": "54b90f1026b43c8816596229c2e3c31661aac417c52157b94599673bec3828d2",
+            "filename_hint": "/usr/lib/modules/5.14.0-503.26.1.el9_5.x86_64/kernel/drivers/scsi/sr_mod.ko"
+        },
+        {
+            "name": "jbd2.ko",
+            "PCR": 10,
+            "template_hash": "71cd48834f14f6cb73b7407f67590caa88cabe26",
+            "ima_template": "ima-sig",
+            "filedata_alg": "sha256",
+            "filedata_hash": "012fc1b79d3b4a30124618cb9ce7846f7dfcf17c3940f8ecf64316a3ad034605",
+            "filename_hint": "/usr/lib/modules/5.14.0-503.26.1.el9_5.x86_64/kernel/fs/jbd2/jbd2.ko"
+        },
+        {
+            "name": "mbcache.ko",
+            "PCR": 10,
+            "template_hash": "b5aa54b7d7600e60d823c4bfa79e8278e2bc0c29",
+            "ima_template": "ima-sig",
+            "filedata_alg": "sha256",
+            "filedata_hash": "79217d4774f2183194a6621209af829ede8a5a374c7ce4aafac1e10575993fe9",
+            "filename_hint": "/usr/lib/modules/5.14.0-503.26.1.el9_5.x86_64/kernel/fs/mbcache.ko"
+        },
+        {
+            "name": "ext4.ko",
+            "PCR": 10,
+            "template_hash": "c2569b6c7c4e1bfc96458e509d3852f8454ef5ab",
+            "ima_template": "ima-sig",
+            "filedata_alg": "sha256",
+            "filedata_hash": "c66f31b415e13a4a44de82c632a1d3c6a58e4de670fad5c31bee7eda2c5fdd31",
+            "filename_hint": "/usr/lib/modules/5.14.0-503.26.1.el9_5.x86_64/kernel/fs/ext4/ext4.ko"
+        }
+    ],
+    "sys_info": {
+        "kernel_version": "5.14.0-503.26.1.el9_5.x86_64",
+        "os_family": "GNU/Linux",
+        "os_name": "Unknown OS"
+    }
+}
