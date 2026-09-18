@@ -428,5 +428,6 @@
         "kernel_version": "6.8.0-1064-azure-fde",
         "os_family": "GNU/Linux",
         "os_name": "Ubuntu 22.04.5 LTS"
-    }
+    },
+    "pcr10_sha256": "01435a52b0410dd41c336a6d4349aacb23d71ac57545d731afa9290eff5c2b56"
 }
