@@ -269,6 +269,159 @@
             "filedata_alg": "sha256",
             "filedata_hash": "b0b055a5fb29550aec4a5bd29cdddc2a1760ec6da9fc06e9574814d7d0c0e7b4",
             "filename_hint": "/usr/lib/modules/6.8.0-1064-azure-fde/kernel/net/netfilter/xt_owner.ko"
+        },
+        {
+            "name": "overlay.ko",
+            "PCR": 10,
+            "template_hash": "06fadd88b90c316f3cbaa3e21d7be76bc79b418b",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "a85dd00224803ea6e7a751c3ab0322763a6392b04c6a043ba98d3d58acee0b10",
+            "filename_hint": "/usr/lib/modules/6.8.0-1064-azure-fde/kernel/fs/overlayfs/overlay.ko"
+        },
+        {
+            "name": "xt_addrtype.ko",
+            "PCR": 10,
+            "template_hash": "69bc93d0a1e8fab0329995f651e15df6d2fb22db",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "52239e2a008624827bd3cebcf5a036b13b0f133775bb422eef4645d6a1ef9577",
+            "filename_hint": "/usr/lib/modules/6.8.0-1064-azure-fde/kernel/net/netfilter/xt_addrtype.ko"
+        },
+        {
+            "name": "nf_nat.ko",
+            "PCR": 10,
+            "template_hash": "47359b57d6e3afa3cb97ebc4749db443bf0f0be0",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "4b7043d102503af66c408f2a6bb31327eb13631aac3dfc96ad33d4646a25602d",
+            "filename_hint": "/usr/lib/modules/6.8.0-1064-azure-fde/kernel/net/netfilter/nf_nat.ko"
+        },
+        {
+            "name": "nft_chain_nat.ko",
+            "PCR": 10,
+            "template_hash": "2c9a11dcbb0ccbd20174e185f2fead05f2151bfa",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "9a104e1f77827318f7cc7d3bcba7658705103b8e3fb387b6f215e47fd056349d",
+            "filename_hint": "/usr/lib/modules/6.8.0-1064-azure-fde/kernel/net/netfilter/nft_chain_nat.ko"
+        },
+        {
+            "name": "ip_set.ko",
+            "PCR": 10,
+            "template_hash": "eb936c5478d589d464e28ec7b206bac7a0dce196",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "e6fc418e6a128b486abc8d6bfdee2b22dbcea7627c47238d2ff8f3bb117ea800",
+            "filename_hint": "/usr/lib/modules/6.8.0-1064-azure-fde/kernel/net/netfilter/ipset/ip_set.ko"
+        },
+        {
+            "name": "xt_set.ko",
+            "PCR": 10,
+            "template_hash": "5e7aa94e9a18b5f0911a1295e21512b6571800e5",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "51f9b1a03e67ac6623b7e5dad86a03d5ad8925e0a977443b600ee7acc1a84ef3",
+            "filename_hint": "/usr/lib/modules/6.8.0-1064-azure-fde/kernel/net/netfilter/xt_set.ko"
+        },
+        {
+            "name": "xfrm_algo.ko",
+            "PCR": 10,
+            "template_hash": "9f8a849ab3ac698aae5f7dea1ecbd7eb1269b1ea",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "625c3312a9b7facdc974ee60bf03852f714f1c1a99d97368aa4e8b60d0537fb1",
+            "filename_hint": "/usr/lib/modules/6.8.0-1064-azure-fde/kernel/net/xfrm/xfrm_algo.ko"
+        },
+        {
+            "name": "xfrm_user.ko",
+            "PCR": 10,
+            "template_hash": "e5195cc981dd7310e74087597e43af23a515fd36",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "cb72e7f606b05632bfabef019e1634f6bafbc6437c0040b9c79bc71b3c2a2650",
+            "filename_hint": "/usr/lib/modules/6.8.0-1064-azure-fde/kernel/net/xfrm/xfrm_user.ko"
+        },
+        {
+            "name": "llc.ko",
+            "PCR": 10,
+            "template_hash": "da385cf7eb110d6b107cb47bbff14a2071792c79",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "ef4a1c9a6c3cbd27e5071b7fa189c04def722b861451a9c847fe9d06348a6190",
+            "filename_hint": "/usr/lib/modules/6.8.0-1064-azure-fde/kernel/net/llc/llc.ko"
+        },
+        {
+            "name": "stp.ko",
+            "PCR": 10,
+            "template_hash": "226f0189a2c27d02a6e2aba9e8ea9e1ed1dc7502",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "55a691ea59a0278693c20f68dc95849715585b8c6078d49920aba83d0499f629",
+            "filename_hint": "/usr/lib/modules/6.8.0-1064-azure-fde/kernel/net/802/stp.ko"
+        },
+        {
+            "name": "bridge.ko",
+            "PCR": 10,
+            "template_hash": "01f4f54383463fb644add66f10203e39a1f054d2",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "4b180e591893557c5cbe360a9f12c3497fe710816d51069d23993cde711c4fc5",
+            "filename_hint": "/usr/lib/modules/6.8.0-1064-azure-fde/kernel/net/bridge/bridge.ko"
+        },
+        {
+            "name": "xt_MASQUERADE.ko",
+            "PCR": 10,
+            "template_hash": "d5850f796c5d5bcae8f2f6268508cabdb562640d",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "6c87b4e3ea31196a9e9c95d9f8e91181e514c6ab71dca28cc425d853684b22e3",
+            "filename_hint": "/usr/lib/modules/6.8.0-1064-azure-fde/kernel/net/netfilter/xt_MASQUERADE.ko"
+        },
+        {
+            "name": "veth.ko",
+            "PCR": 10,
+            "template_hash": "258545a7de846b64c8560690fe2c3b8ad67d7230",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "f3e610adcbb0b9ab5702bc974be196114071e078359a557a442ad6a017587ea7",
+            "filename_hint": "/usr/lib/modules/6.8.0-1064-azure-fde/kernel/drivers/net/veth.ko"
+        },
+        {
+            "name": "nf_conntrack_netlink.ko",
+            "PCR": 10,
+            "template_hash": "0586021f9d7e8c7f61be895b20a2c2425a567a44",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "c22f3de6d586bafb53f579bd5b88ef61b412a7dd078fc9a9652e74834aebf278",
+            "filename_hint": "/usr/lib/modules/6.8.0-1064-azure-fde/kernel/net/netfilter/nf_conntrack_netlink.ko"
+        },
+        {
+            "name": "inet_diag.ko",
+            "PCR": 10,
+            "template_hash": "41a17c067e278d7169a39db6474eb2bb69962b25",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "93452dd3a145aa01e68fb26fe9353b22633a6a28cbd5a33f1dab66fbb6bbfaef",
+            "filename_hint": "/usr/lib/modules/6.8.0-1064-azure-fde/kernel/net/ipv4/inet_diag.ko"
+        },
+        {
+            "name": "tcp_diag.ko",
+            "PCR": 10,
+            "template_hash": "e7559b8d5ec6e6136b59f2189f54169048be10fa",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "f56968e459368efa103320ff88e545ffb0116f32470742ae9bd418299afccdd9",
+            "filename_hint": "/usr/lib/modules/6.8.0-1064-azure-fde/kernel/net/ipv4/tcp_diag.ko"
+        },
+        {
+            "name": "xt_nat.ko",
+            "PCR": 10,
+            "template_hash": "a3caa56fd1f9da9a575b679b3332ebc06d50617d",
+            "ima_template": "ima-ng",
+            "filedata_alg": "sha256",
+            "filedata_hash": "69c04d1aea259bff779df4dfa7c56e2602e8d33d66c2a4f2d4cb107d6e713ac6",
+            "filename_hint": "/usr/lib/modules/6.8.0-1064-azure-fde/kernel/net/netfilter/xt_nat.ko"
         }
     ],
     "sys_info": {
