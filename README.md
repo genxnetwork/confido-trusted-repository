@@ -3,7 +3,7 @@
 This repository retains GENXT's original reference files. New publisher
 statements are issued from the reviewed `endorsement-requests/` records on
 `master`; the reference bytes themselves are distributed by the public
-[Teraveri registry](https://github.com/teraveri/attestation-references).
+[Teraveri registry](https://github.com/teraveri/reference-value-registry).
 
 The `endorse-manifest` workflow fetches the registry manifest and reference
 at the full commit in the request, checks both SHA-256 digests, and signs the

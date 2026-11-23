@@ -8,7 +8,7 @@ from pathlib import Path
 import re
 import urllib.request
 
-REGISTRY = "teraveri/attestation-references"
+REGISTRY = "teraveri/reference-value-registry"
 HEX40 = re.compile(r"[0-9a-f]{40}\Z")
 HEX64 = re.compile(r"[0-9a-f]{64}\Z")
 REQUEST_ID = re.compile(r"[a-z0-9][a-z0-9-]{0,62}\Z")

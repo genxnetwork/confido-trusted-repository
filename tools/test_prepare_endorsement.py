@@ -8,7 +8,7 @@ import unittest
 from prepare_endorsement import prepare
 
 SOURCE = Path(__file__).resolve().parents[1]
-REGISTRY = SOURCE.parent / "attestation-references"
+REGISTRY = SOURCE.parent / "reference-value-registry"
 ENTRY = "entries/azure-snp-vtpm-ima-1/azure-genoa-ubuntu2204-kernel-1071-stage"
 
 
@@ -27,7 +27,7 @@ class PrepareEndorsementTests(unittest.TestCase):
         self.objects = {self.manifest_path: self.manifest_bytes, self.reference_path: self.reference_bytes}
 
     def reader(self, commit, path):
-        self.assertEqual(commit, "b21a16b6129a36000bfe7fdc60d5dd2cd285e3fa")
+        self.assertEqual(commit, "fcf172f378225648d50a69028020b1798b90a0c9")
         return self.objects[path]
 
     def update_request(self, edit):
@@ -38,7 +38,7 @@ class PrepareEndorsementTests(unittest.TestCase):
     def test_prepares_exact_manifest_subject(self):
         name, digest, predicate = prepare(self.root, "genoa-stage-1071", self.reader)
         expected = hashlib.sha256(self.manifest_bytes).hexdigest()
-        self.assertEqual(name, f"teraveri/attestation-references/{self.manifest_path}")
+        self.assertEqual(name, f"teraveri/reference-value-registry/{self.manifest_path}")
         self.assertEqual(digest, f"sha256:{expected}")
         self.assertEqual(predicate["manifest_sha256"], expected)
         self.assertEqual(predicate["publisher"], "GENXT")
