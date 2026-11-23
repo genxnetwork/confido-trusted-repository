@@ -1,0 +1,7 @@
+{
+  "schema_version": 1,
+  "registry_repository": "teraveri/attestation-references",
+  "registry_commit": "b21a16b6129a36000bfe7fdc60d5dd2cd285e3fa",
+  "manifest_path": "entries/azure-snp-vtpm-ima-1/azure-genoa-ubuntu2204-kernel-1071-stage/manifest.json",
+  "manifest_sha256": "9e894415cd892a01a99b679cbac311ea6ba8648fc010c0bf5ffe854d735234e0"
+}

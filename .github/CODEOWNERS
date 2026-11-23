@@ -1,0 +1,3 @@
+/endorsement-requests/ @pavelnikonorov
+/.github/workflows/endorse-manifest.yml @pavelnikonorov
+/tools/prepare_endorsement.py @pavelnikonorov

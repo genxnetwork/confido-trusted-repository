@@ -1,0 +1,46 @@
+name: Endorse reference manifest
+
+on:
+  workflow_dispatch:
+    inputs:
+      request_id:
+        description: Reviewed request ID under endorsement-requests/
+        required: true
+        type: string
+
+jobs:
+  endorse:
+    if: github.repository == 'genxnetwork/confido-trusted-repository' && github.ref == 'refs/heads/master'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      id-token: write
+      attestations: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: master
+          persist-credentials: false
+      - name: Check the reviewed request and the exact registry bytes
+        id: prepare
+        env:
+          REQUEST_ID: ${{ inputs.request_id }}
+        run: python3 tools/prepare_endorsement.py --request-id "$REQUEST_ID" --output-dir "$RUNNER_TEMP/endorsement" --github-output "$GITHUB_OUTPUT"
+      - name: Sign the manifest digest as GENXT
+        id: attest
+        uses: actions/attest@v4
+        with:
+          subject-name: ${{ steps.prepare.outputs.subject_name }}
+          subject-digest: ${{ steps.prepare.outputs.subject_digest }}
+          predicate-type: https://teraveri.org/attestations/reference-manifest-publisher/v1
+          predicate-path: ${{ steps.prepare.outputs.predicate_path }}
+      - name: Package the Sigstore bundle for registry review
+        env:
+          BUNDLE: ${{ steps.attest.outputs.bundle-path }}
+        run: cp "$BUNDLE" genxt.sigstore.json
+      - uses: actions/upload-artifact@v4
+        with:
+          name: genxt-reference-endorsement
+          path: genxt.sigstore.json
+          if-no-files-found: error
+          retention-days: 90
