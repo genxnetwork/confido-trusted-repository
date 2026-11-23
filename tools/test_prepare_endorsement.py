@@ -8,7 +8,6 @@ import unittest
 from prepare_endorsement import prepare
 
 SOURCE = Path(__file__).resolve().parents[1]
-REGISTRY = SOURCE.parent / "reference-value-registry"
 ENTRY = "entries/azure-snp-vtpm-ima-1/azure-genoa-ubuntu2204-kernel-1071-stage"
 
 
@@ -21,9 +20,19 @@ class PrepareEndorsementTests(unittest.TestCase):
         self.request_file = self.root / "endorsement-requests/genoa-stage-1071.json"
         shutil.copyfile(SOURCE / "endorsement-requests/genoa-stage-1071.json", self.request_file)
         self.manifest_path = f"{ENTRY}/manifest.json"
-        self.manifest_bytes = (REGISTRY / self.manifest_path).read_bytes()
         self.reference_path = f"{ENTRY}/reference.json"
-        self.reference_bytes = (REGISTRY / self.reference_path).read_bytes()
+        self.reference_bytes = json.dumps({"ima_measurements": [{"PCR": 10}], "pcr10_sha256": "0" * 64}).encode()
+        self.manifest_bytes = json.dumps({
+            "schema_version": 1,
+            "id": "azure-genoa-ubuntu2204-kernel-1071-stage",
+            "profile": "azure-snp-vtpm-ima/1",
+            "environment": {"product": "Genoa"},
+            "provenance": {"review_status": "stage-candidate"},
+            "reference": {"path": self.reference_path, "sha256": hashlib.sha256(self.reference_bytes).hexdigest(), "ima_entries": 1},
+        }).encode()
+        request = json.loads(self.request_file.read_text())
+        request["manifest_sha256"] = hashlib.sha256(self.manifest_bytes).hexdigest()
+        self.request_file.write_text(json.dumps(request) + "\n")
         self.objects = {self.manifest_path: self.manifest_bytes, self.reference_path: self.reference_bytes}
 
     def reader(self, commit, path):
